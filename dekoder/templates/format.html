@@ -1,49 +1,7 @@
 {% extends "base.html" %}
 
 {% block test_css %}
-<style type="text/css">
-#dekodeField {
-    color: #000;
-    text-decoration: none;
-}
-span {
-    font-size: 11px;
-    color: #555;;
-    display: block; 
-}
-img {
-    vertical-align: middle; 
-    display: inline-block;
-}
-.center {  
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.w {
-    vertical-align: middle; 
-    display: inline-block;
-    margin-right: 2%;
-}
-.controls{
-	background: #aaa;
-	height: 50px;
-}
-div.par {
-	margin-bottom: 1%;
-}
-.left {float: left;}
-.inputPrev div div { 
-	border-left: 1px solid black; 
-	padding-left: 1%;
-	border: 1px solid black;
-	padding-left: 1%;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 15px;
-	padding-right: 5px;
- }
-</style>
+<style type="text/css"></style>
 {% endblock %}
 
 {% block body %}
@@ -102,69 +60,6 @@ div.par {
 
 {% block test_js %}
 <script type="text/javascript">
-		function download(filename, text) {
-			var element = document.createElement('a');
-			element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-			element.setAttribute('download', filename);
-
-			element.style.display = 'none';
-			document.body.appendChild(element);
-
-			element.click();
-
-			document.body.removeChild(element);
-		}
-
-		function removeMultiWhiteSpace(str) {
-			return str.replace(/ +/g, " ");
-		}
-
-		function splitAllWords() {
-			var str = $('#dekodeText').val();
-			str = removeMultiWhiteSpace(str);
-			str = str.replace(/ /g, "  ");
-			$('#dekodeText').val(str);
-		}
-
-		function text2json(text) {
-			// split text by magic delimiters 
-			var json = [];
-			var text = $('#dekodeText').val();
-			var pars = text.split("\n");
-			for (var par in pars){
-				var words=pars[par].split("  ");
-				parLine=[];
-				for(var word in words){
-					parLine.push(words[word]);
-				}
-				json.push(parLine);
-			}
-			return json;
-		}
-
-		function json2html(json) {
-			//transform to par-word-json
-			var str="";
-			var lastBool=false;
-			for(var par in json){
-				if(json[par].length==0){continue;}
-				str+='<div class="par">';
-				for(var w in json[par]){
-					str+='<div class="w">'+json[par][w]+'</div>';
-				}
-				str+='</div>'
-			}
-			return str
-		}
-
-		function showDekodeable() {
-			var text = $('#dekodeText').val();
-			var json = text2json(text);
-			console.log(JSON.stringify(json))
-			var html = json2html(json);
-			document.getElementById("dekodeField").innerHTML=html;
-		}
-
 		$(function() {
 		    $('#save').click(function() {
 		        var name = $('#name').val();
@@ -172,17 +67,10 @@ div.par {
 		        var lang = e.options[e.selectedIndex].text;
 		        var json = text2json();
 		        $.ajax({
-		            url: '',
+		            url: '',type: 'POST',dataType: 'json',contentType: 'application/json; charset=utf-8',   
 		            data:JSON.stringify({"name":name,"lang":lang,"json":json}, null, ''),
-		            type: 'POST',
-		            contentType: 'application/json; charset=utf-8',   
-		            dataType: 'json',
-		            success: function(response) {
-		                Materialize.toast(response.message, 7000, 'rounded')
-		            },
-		            error: function(error) {
-		                Materialize.toast(error.message, 7000, 'rounded')
-		            }
+		            success: function(response) {Materialize.toast(response.message, 7000, 'rounded')},
+		            error: function(error) 		{Materialize.toast(error.message, 7000, 'rounded')}
 		        });
 		    });
 		});

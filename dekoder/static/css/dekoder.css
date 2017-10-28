@@ -1,0 +1,75 @@
+body {
+    padding: 20px;
+}
+/*
+.dekode-field {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 120px;
+    padding: 30px 50px;
+    display: inline-block;
+}*/
+span {
+    font-size: 11px;
+    color: #ccc;;
+    display: block; 
+}
+img {
+    vertical-align: middle; 
+    display: inline-block;
+}
+.center {  
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btnText {
+    vertical-align: middle; 
+    display: inline-block;
+}
+
+#dekodeField {
+    color: #000;
+    text-decoration: none;
+}
+span {
+    font-size: 11px;
+    color: #555;;
+    display: block; 
+}
+img {
+    vertical-align: middle; 
+    display: inline-block;
+}
+.center {  
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.w {
+    vertical-align: middle; 
+    display: inline-block;
+    margin-right: 2%;
+}
+.controls{
+    background: #aaa;
+    height: 50px;
+}
+div.par {
+    margin-bottom: 1%;
+}
+.left {float: left;}
+.inputPrev div div { 
+    border-left: 1px solid black; 
+    padding-left: 1%;
+    border: 1px solid black;
+    padding-left: 1%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+    padding-right: 5px;
+ }

@@ -19,11 +19,13 @@ bundles = {
 		'bower_components/jquery/dist/jquery.min.js',
 		'bower_components/materialize/dist/js/materialize.min.js',
         'bower_components/audiojs/audiojs/audio.min.js',
+        'js/dekoder.js',
 		output='gen/home.js', filters='jsmin'
 	),
 	'home_css': Bundle(
 		'bower_components/materialize/dist/css/materialize.min.css',
-		'icon.css',
+        'css/dekoder.css',
+        'css/icon.css',
 		output='gen/home.css' ,filters='cssmin'
 	),
 }

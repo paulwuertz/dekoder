@@ -46,78 +46,13 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 {% block test_js %}
 <script type="text/javascript">
 		numpars={{ parWArr|safe }}
-		function download(filename, text) {
-			var element = document.createElement('a');
-			element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-			element.setAttribute('download', filename);
 
-			element.style.display = 'none';
-			document.body.appendChild(element);
-
-			element.click();
-
-			document.body.removeChild(element);
-		}
-
-		function json2html(json) {
-			//transform to par-word-json
-			var str="";
-			var lastBool=false;
-			for(var par in json){
-				if(json[par].length==0){continue;}
-				str+='<div class="par">';
-				for(var w in json[par]){
-					str+='<div class="w">'+w+'<span>';
-					if (par[w]) str+=par[w];
-					str+='</span></div>';
-				}
-				str+='</div>'
-			}
-			return str
-		}
-
-		function html2json() {
-			//transform to par-word-json
-			var str="";
-			var lastBool=false;
-			var pars = numpars["pars"];
-			var par =0;
-			var json=[]
-			for(var p=1;p<=pars.length;p++){
-				var par={}
-				for (var w=1;w<=pars[p-1];w++) {
-					par[$("#p"+p+"l"+w).html()]={"w":$("#p"+p+"w"+w).val()}
-					if($("#p"+p+"e"+w).val())
-						par[$("#p"+p+"l"+w).html()]["e"]=$("#p"+p+"e"+w).val();
-				}
-				json.push(par);
-			}
-			console.log(JSON.stringify(json))
-			return json
-		}
 
 		$(function() {
-		    $('#save').click(function() {
-		        var name = $('#txtUsername').val();
-		        var lang = $('#txtPassword').val();
-		        var json = html2json();
-		        $.ajax({
-		            url: '',
-		            data:JSON.stringify({"name":name,"lang":lang,"json":json}),
-		            contentType: 'application/json; charset=utf-8',   
-		            dataType: 'json',
-		            type: 'POST',
-		            success: function(response) {
-		                Materialize.toast('Formated text posted and saved.', 7000, 'rounded')
-		            },
-		            error: function(error) {
-		                Materialize.toast('Some error occured...', 7000, 'rounded')
-		            }
-		        });
-		    });
+		    $('#save').click(postDekoded());
 		});
 
-		$(document).ready(function() {
+		$(document).ready(dekodedReadyfunction() {
 		   //init lang select field
 		   $('select').material_select();
    		    {% for par in t['json'] %}
