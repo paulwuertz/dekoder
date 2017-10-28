@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--META-->
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--CSS-->
+	{% assets "home_css" %}
+	<link rel="stylesheet" href="{{ ASSET_URL }}" />
+	{% endassets %}
+	<style type="text/css">
+		.brand-logo {margin-left: 5%;}
+		.nav-wrapper {margin-right: 5%;}
+		#main{min-height: 600px;}
+	</style>
+	{% block test_css %}{% endblock %}
+</head>
+
+<body>
+<!-- NAV -->
+<nav class="green">
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Dekoder</a>
+	<ul class="right hide-on-med-and-down">
+	  <li><a href="{{ url_for('format') }}">Format text</a></li>
+	  <li><a href="{{ url_for('dekode') }}">Dekode formated text</a></li>
+      <li><a href="{{ url_for('read') }}">Text lesen</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="main" class="container">
+	<div class="section">
+			<div class="row center">&nbsp;</div>
+	</div>
+{% block body %}{% endblock %}
+</div>
+
+<footer class="page-footer green">
+  <div class="container">
+    <div class="row">
+      <div class="col m6 s12">
+        <h5 class="white-text">This is a leisure time project ;)</h5>
+        <p class="grey-text text-lighten-4">When you want to make improvements or report a bug/feature a request:</p>
+        <a href="https://github.com/paulwuertz">
+		<img class="white circle" class="responsive-img" src="{{ url_for('static', filename='img/GitHub-Mark-64px.png') }}"></a>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li>Frei nach der Methodik von <a class="grey-text text-lighten-3" href="https://www.birkenbihl.com/">Vera F. Birkenbihl</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container"> © 2017 Copyright Text <a class="grey-text text-lighten-4 right" href="#!">More Links</a></div>
+  </div>
+</footer>
+
+<!--JS-->
+{% assets "home_js" %}
+<script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+  <script type="text/javascript">
+  {% for category, message in messages %}
+     Materialize.toast('{{ category }}: {{ message }}', 7000, 'rounded')
+  {% endfor %}
+  </script>
+{% endif %}
+{% endwith %}
+
+{% block test_js %}{% endblock %}
+</body>
+</html>

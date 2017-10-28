@@ -1,0 +1,8 @@
+static1000
+utils/ru1000.txt
+insertCSV2db.py
+dekoder/__pycache__
+dekoder/app.db
+dekoder/static/bower_components
+dekoder/static/gen
+dekoder/static/.webassets-cache

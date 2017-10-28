@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block test_css %}
+<style type="text/css">
+
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="row">
+  <div class="col s12">
+    <div class="card-panel">
+        <table class="responsive-table highlight bordered striped">
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>SourceLang</th>
+              <th>Dekode language</th>
+              <th></th>
+          </tr>
+        </thead>
+
+        <tbody>
+            {% for tekst in t %}
+             <tr>
+              <td>{{ tekst.name }}</td>
+              <td>{{ tekst.lang }}</td>
+              <td>  
+                <div class="input-field col s12">
+                  <select id="{{ tekst.name }}-sel">
+                    <option value="" disabled selected>Choose your option</option>
+                    {% for l in langs %}
+                    <option value="{{l}}">{{l}}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+              </td>
+              <td><a class="waves-effect waves-light btn" id="{{ tekst.name }}-btn" href="dekode/{{tekst.name}}">Dekode</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block test_js %}
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+
+
+  {% for tekst in t %}
+  $('#{{ tekst.name }}-sel').on('change', function() {
+    $('#{{ tekst.name }}-btn').attr("href","dekode/{{ tekst.name }}/"+this.value);
+  })
+  {% endfor %}
+
+</script>
+{% endblock %}

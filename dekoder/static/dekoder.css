@@ -1,0 +1,33 @@
+body {
+    padding: 20px;
+}
+
+.dekode-field {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 120px;
+    padding: 30px 50px;
+    display: inline-block;
+}
+span {
+    font-size: 11px;
+    color: #ccc;;
+    display: block; 
+}
+img {
+    vertical-align: middle; 
+    display: inline-block;
+}
+.center {  
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btnText {
+    vertical-align: middle; 
+    display: inline-block;
+}

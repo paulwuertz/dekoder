@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+
+{% block test_css %}
+<style type="text/css">
+#dekodeField {
+    color: #000;
+    text-decoration: none;
+}
+span {
+    font-size: 11px;
+    color: #555;;
+    display: block; 
+}
+img {
+    vertical-align: middle; 
+    display: inline-block;
+}
+.center {  
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.w {
+    vertical-align: middle; 
+    display: inline-block;
+    margin-right: 2%;
+}
+.controls{
+	background: #aaa;
+	height: 50px;
+}
+div.par {
+	margin-bottom: 1%;
+}
+.left {float: left;}
+.inputPrev div div { border-left: 1px solid black; padding-left: 1%; }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="row">
+      <div class="col s12 offset-m4 m4">
+        <div class="card-panel">
+        	  <!--Input name+btns-->
+			  <div class="row">
+			  	   <div class="row"><div class="input-field col s10 offset-s1">
+				      <input placeholder="Placeholder" id="name" type="text" class="validate">
+				      <label for="name">Text Name</label>
+				   </div></div>
+				   <div class="row">
+				   		 <div class="input-field col  s10 offset-s1">
+						    <select>
+						      <option value="" disabled selected>Choose the source language</option>
+						      {% for lang in langs %}
+						      <option value="{{ loop.index }}">{{ lang }}</option>
+						      {% endfor %}
+						    </select>
+						    <label>Source Language</label>
+					   </div>
+				   </div>
+				   <div class="row">
+					   <a id="save" class="col s4 offset-s4 waves-effect waves-light btn">Save text</a>
+				   </div>
+			  </div>
+        </div>
+      </div>
+    </div>
+
+<div class="row">
+  <div class="col s12">
+    <div class="card-panel">
+	  <div class="row">
+		   <div class="row">
+			   <a id="seperate" class="col s2 offset-s1 waves-effect waves-light btn">Seperate all words</a>
+		   </div>
+	      <!--Input text-->
+		  <div class="col s12 m6 row">
+		      <div class="row">
+		        <div class="input-field col s12 left">
+		          <textarea id="dekodeText" class="materialize-textarea"></textarea>
+		          <label for="dekodeText">Source text</label>
+		        </div>
+		      </div>
+		  </div>
+		  <!--Output preview-->
+		  <div id="dekodeField" class="col s12 m5 inputPrev left">
+		</div>
+	  </div>
+	</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block test_js %}
+<script type="text/javascript">
+		var t = {
+			"mp3":"as.mp3",
+			"pars": [
+				{
+					"time":152,
+					"words":{
+						"a":"b",
+						"c":2,
+						"aa":"as"
+					}
+				}
+			]
+		}
+		function download(filename, text) {
+			var element = document.createElement('a');
+			element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+			element.setAttribute('download', filename);
+
+			element.style.display = 'none';
+			document.body.appendChild(element);
+
+			element.click();
+
+			document.body.removeChild(element);
+		}
+
+		function removeMultiWhiteSpace(str) {
+			return str.replace(/ +/g, " ");
+		}
+
+		function splitAllWords() {
+			var str = $('#dekodeText').val();
+			str = removeMultiWhiteSpace(str);
+			str = str.replace(/ /g, "  ");
+			$('#dekodeText').val(str);
+		}
+
+		function text2json(text) {
+			// split text by magic delimiters 
+			var json = []
+			var pars = text.split("\n");
+			for (var par in pars){
+				var words=pars[par].split("  ");
+				parLine={};
+				for(var word in words){
+					parLine[words[word]]={"w":"","e":""};
+				}
+				json.push(parLine);
+			}
+			return json;
+		}
+
+		function json2html(json) {
+			//transform to par-word-json
+			var str="";
+			var lastBool=false;
+			for(var par in json){
+				if(json[par].length==0){continue;}
+				str+='<div class="par">';
+				for(var w in json[par]){
+					str+='<div class="w">'+w+'<span>';
+					if (par[w]) str+=par[w];
+					str+='</span></div>';
+				}
+				str+='</div>'
+			}
+			return str
+		}
+
+		function showDekodeable() {
+			var text = $('#dekodeText').val();
+			var json = text2json(text);
+			console.log(JSON.stringify(json))
+			var html = json2html(json);
+			document.getElementById("dekodeField").innerHTML=html;
+		}
+
+		function postDekodable(argument) {
+			var jqxhr = $.post( "example.php", function() {
+			  alert( "success" );
+			})
+			  .done(function() {
+			    alert( "second success" );
+			  })
+			  .fail(function() {
+			    alert( "error" );
+			  })
+			  .always(function() {
+			    alert( "finished" );
+			  });
+ 
+		}
+
+		//refresh on change
+		$('#dekodeText').on('input',function(e){
+			showDekodeable();
+		});
+		
+		//init preview text
+		$('#dekodeText').val(`This  is  a dummy text.  In the same manner  as  seen  here  you  have to  preformat  your text.  You  can  enter  word units  by seperating  each  by  a double whitespace. On the right  you  can see  the preview,  where  each word unit  is seperated  by  a black stroke  from  one another. 
+
+Also  by  using  two newlines  there will be  a paragraph.
+
+This is  the first  of two stages  to dekode  a text. The second  will be  to add  translations  for  the word units  and  if  necessary  explainations.
+
+You  can  use  the button  above  to split  all  words  from  your text  and  only  regroup  the multi-word-units.
+`);
+		
+		//the two buttons
+		$("#save" ).click(function() {
+		   alert( "Handler for .click() called." );
+		});
+		$("#seperate" ).click(function() {
+		   splitAllWords();
+		   showDekodeable();
+		});
+
+		$(document).ready(function() {
+		   //init lang select field
+		   $('select').material_select();
+		   //resize textfield
+		   $('#dekodeText').trigger('autoresize');
+		   //init preview
+			showDekodeable();
+		});
+</script>
+{% endblock %}
