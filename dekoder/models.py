@@ -46,6 +46,11 @@ class Text(Base):
     lang = db.Column(db.String(2))
     json = db.Column(db.String())
 
+    def __init__(self,nm,ln,jsn):
+        self.name =nm
+        self.lang =ln
+        self.json =jsn
+
     def __repr__(self):
         return '<Textname: %r>' % self.name
 
@@ -53,12 +58,10 @@ class Text(Base):
 class WDictBase(db.Model):
     __abstract__ = True
     word = db.Column(db.String(), unique=True, primary_key=True)
-    langFromTo = db.Column(db.String(4))
     json = db.Column(db.String())
 
-    def __init__(self, wrd, jsn, fr, to):
+    def __init__(self, wrd, jsn):
         self.word = wrd
-        self.langFromTo=fr+to
         self.json = jsn
 
     def __repr__(self):
@@ -70,63 +73,72 @@ class WDictBase(db.Model):
 class WDictDEXX(db.Model):
     __tablename__ = "WDictDEXX"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
+        self.json = jsn
+    def __repr__(self):
+        return '<%r : %r>' % self.word, self.json
+class WDictDEAR(db.Model):
+    __tablename__ = "WDictDEAR"
+    word = db.Column(db.String(), unique=True, primary_key=True)
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDEEN(db.Model):
     __tablename__ = "WDictDEEN"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDEES(db.Model):
     __tablename__ = "WDictDEES"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDEEO(db.Model):
     __tablename__ = "WDictDEEO"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDEFR(db.Model):
     __tablename__ = "WDictDEFR"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDEJP(db.Model):
     __tablename__ = "WDictDEJP"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDEPL(db.Model):
     __tablename__ = "WDictDEPL"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDERU(db.Model):
     __tablename__ = "WDictDERU"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn
 class WDictDEZH(db.Model):
     __tablename__ = "WDictDEZH"
     word = db.Column(db.String(), unique=True, primary_key=True)
-    def __init__(self, name, lang, jsn):
-        self.name = name
-        self.lang = lang
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
         self.json = jsn

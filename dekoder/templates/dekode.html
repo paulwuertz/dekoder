@@ -52,7 +52,7 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 		    $('#save').click(postDekoded());
 		});
 
-		$(document).ready(dekodedReadyfunction() {
+		$(document).ready(function(){
 		   //init lang select field
 		   $('select').material_select();
    		    {% for par in t['json'] %}

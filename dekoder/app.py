@@ -32,6 +32,7 @@ bundles = {
 
 #Available languages
 langs=("AR","DE","EN","ES","EO","FR","JP","PL","RU","ZH")
+langs2dict={"DEAR":WDictDEAR,"DE":WDictDEXX,"DEEN":WDictDEEN,"DEES":WDictDEES,"DEEO":WDictDEEO,"DEFR":WDictDEFR,"DEJP":WDictDEJP,"DEPL":WDictDEPL,"DERU":WDictDERU,"DEZH":WDictDEZH}
 assets = Environment(app)
 assets.register(bundles)
 
@@ -61,30 +62,34 @@ def format():
             #ass formated text
             text = Text(request.json["name"], request.json["lang"], json.dumps(request.json["json"]))
             db.session.add(text)
-
+            db.session.commit()
             # add all new words to the source langs table
             newW=0 #cnts the number of new words
             #counts up the references of the word or adds a new word to the lang specific dict
             for par in request.json["json"]:
                 for w in par:
-                    tr=db.session.query(WDictDEXX).filter(WDictDEXX.word==w.strip(" ,.\n").lower()).one_or_none()
+                    pureWord=w.strip(" ,.\n").lower()
+                    tr=db.session.query(WDictDEXX).filter(WDictDEXX.word==pureWord).one_or_none()
+                    #print(w)
                     if tr==None: 
                         newW+=1
-                        w = WDict(w, json.dumps({"refCnt":1,"w":[]}),request.json["lang"],"")
+                        print("new",tr)
+                        w = WDictDEXX(pureWord, json.dumps({"refCnt":1,"w":[]})) #TODO should be generalized by using request.json["lang"]+"XX"
                         db.session.add(w)
                     else:
+                        print("old")
                         ref=json.loads(tr.json)
                         ref["refCnt"]+=1;
                         tr.json=json.dumps(ref)
             db.session.commit()
-            #response
+            #print("texta")
             return json.dumps({'message':"Formated text was succesfully saved! "+str(newW)+" new Words added..."}), 200, {'ContentType':'application/json'} 
         except ValidationError:
             return json.dumps({'message':"No valid text format submitted..."}), 200, {'ContentType':'application/json'}
         except IntegrityError as e:
-            return json.dumps({"success":False,'message':"Formated text with given name already taken. Choose another name..."+str(e)}), 200, {'ContentType':'application/json'}
+            return json.dumps({"success":False,'message':"Formated text with given name already taken. Choose another name..."}), 200, {'ContentType':'application/json'}
         except Exception as e:
-            return json.dumps({"success":False,'message':str(e)}), 200, {'ContentType':'application/json'} 
+            return json.dumps({"success":False,'message':"Other:"+str(e)}), 200, {'ContentType':'application/json'} 
 
     else:
         return render_template("format.html", langs=langs)
@@ -111,7 +116,7 @@ def dekodeTextLang(textname,lang):
     for par in json.loads(txt.json):
         auto = {}
         for t in par:
-            tr=db.session.query(WDict).filter(WDict.word==t.strip(" ,.\n").lower()).one_or_none()
+            tr=db.session.query(WDictDEXX).filter(WDictDEXX.word==t.strip(" ,.\n").lower()).one_or_none()
             if tr==None: auto[t]={}
             else       : auto[t]=json.loads(tr.json)
         autotext.append(auto)
