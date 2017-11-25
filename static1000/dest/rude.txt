@@ -1,0 +1,999 @@
+а	und, aber
+август	August
+автобус	Bus
+автор	Autor
+администрация	Verwaltung, Administration
+адрес	Adresse
+активный	aktiv
+Алло!	Hallo!
+английский	englisch
+англичанин	Engländer
+англичанка	Engländerin
+англо-русский	englisch-russisch
+анкета	Umfrage, Fragebogen
+апельсин	Apfelsine
+аппетит	Appetit
+апрель	April
+аптека	Apotheke
+артист	Künstler, Schauspieler
+артистка	Künstlerin, Schauspielerin
+архитектор	Architekt
+архитектура	Architektur
+аудитория	Auditorium
+аэропорт	Flughafen
+бабочка	Schmetterling
+бабушка	Großmutter
+багаж	Gepäck
+балет	Ballett
+банк	Bank
+баскетбол	Basketball
+бассейн	Schwimmbad, Schwimmbecken
+бедный	arm
+без	ohne
+бейсбол	Baseball
+белый	weiss
+берег	Ufer, Küste
+бесплатный	kostenlos
+библиотека	Bibliothek
+бизнес	Business
+бизнесмен	Geschäftsmann
+билет	Fahrschein, Karte, Ticket
+биография	Biographie
+биолог	Biologe
+биология	Biologie
+близко	nah
+бог	Gott
+богатый	reich
+болен	krank
+больница	Krankenhaus
+больно	schmerzhaft
+больной	Kranker, krank
+больше	mehr
+большой	groß
+брат	Bruder
+будущий	zukünftig
+буква	Buchstabe
+булочная	Bäckerei
+бумага	Papier
+бутерброд	belegtes Brötchen
+бутылка	Flasche
+быстро	schnell
+в	in, an, nach
+во	in, an, nach
+вагон	Wagen
+важно	wichtig
+ваш	Ihr, euer
+вверх	hinauf
+вдруг	plötzlich
+везде	überall
+век	Jahrhundert
+великий	groß
+весело	lustig
+весна	Frühling
+весной	im Frühling
+весь	alle, ganz, alles
+ветер	Wind
+вечер	Abend
+вечером	am Abend, abends
+вещь	Ding, Sache
+видео	Video
+виза	Visum
+вилка	Gabel
+вино	Wein
+вкусно	schmackhaft
+власть	Macht, Herrschaft
+вместе	zusammen
+вниз	hinunter, nach unten
+внимание	Aufmerksamkeit, Achtung!
+внимательно	aufmerksam
+внук	Enkel
+внучка	Enkelin
+вовремя	rechtzeitig, pünktlich
+вода	Wasser
+водка	Vodka
+воздух	Luft
+возможно	möglicherweise, kann sein
+вокзал	Bahnhof
+волейбол	Volleyball
+волк	Wolf
+волосы	Haare
+вопрос	Frage
+восемнадцать	achtzehn
+восемь	acht
+восемьдесят	achtzig
+восемьсот	achthundert
+воскресенье	Sonntag
+восток	Osten
+восточный	östlich
+вот	hier, da
+вперёд	vorwärts
+враг	Feind, Gegner
+врач	Arzt
+время	Zeit
+всегда	immer
+встреча	Treffen
+вторник	Dienstag
+вход	Eingang
+вчера	gestern
+вы	ihr, Ihr
+высокий	hoch, groß
+высота	Höhe
+выставка	Ausstellung
+выход	Ausgang
+газета	Zeitung
+галерея	Galerie
+где	wo
+географ	Geograph
+география	Geographie
+герой	Held
+гитара	Gitarre
+главный	hauptsächlich
+глаз	Auge
+глубокий	tief
+год	Jahr
+голова	Kopf
+голос	Stimme
+голубой	hellblau
+гора	Berg
+город	Stadt
+горький	bitter
+горячий	heiss
+господин	Herr
+госпожа	Frau
+гостиница	Hotel
+гость	Gast
+государственный	staatlich
+государство	Staat
+готов	bereit
+градус	Grad
+грамм	Gramm
+граница	Grenze
+грипп	Grippe
+громко	laut
+группа	Gruppe
+грустно	traurig
+грязный	schmutzig
+да	ja
+давайте	Lass/t uns	...!
+давно	seit langem
+даже	sogar
+далеко	weit weg
+дата	Datum
+два	zwei
+двадцать	zwanzig
+двенадцать	zwölf
+дверь	Tür
+двести	zweihundert
+дворец	Palast
+девочка	kleines Mädchen
+девушка	Mädchen, junge Frau
+девяносто	neunzig
+девятнадцать	neunzehn
+девять	neun
+девятьсот	neunhundert
+дедушка	Grossvater
+декабрь	Dezember
+дело	Angelegenheit
+день	Tag
+деньги	Geld
+депутат	Abgeordneter
+деревня	Dorf
+дерево	Baum, Holz
+десять	zehn
+дети	Kinder
+детство	Kindheit
+дёшево	billig
+диалог	Dialog
+диван	Sofa
+директор	Direktor
+длинный	lang
+днём	am Tage
+до	bis
+добрый	gut
+доволно	ziemlich, ausreichend
+дождь	Regen
+документ	Dokument
+долги	Schulden
+долго	lange	(zeitlich)
+должен	müssen, sollen
+дом	Haus
+дома	zu Hause, Zuhause
+домой	nach Hause
+домохозяйка	Hausfrau
+дорога	Weg
+дорого	teuer
+дорогой	liebe, teuer
+До свидания!	Auf Wiedersehen!
+дочь	Tochter
+друг	Freund
+другой	der andere
+дружба	Freundschaft
+душ	Dusche
+дядя	Onkel
+европейский	europäisch
+его	sein, seine
+еда	Essen
+её	ihr, ihre
+если	wenn
+ещё	noch
+ёж	Igel
+ёлка	Weihnachtsbaum
+жалко	schade, bedauerlich
+жарко	heiß
+жена	Ehefrau
+женский	weiblich
+женщина	Frau
+жёлтый	gelb
+живой	lebendig, lebend
+живопись	Malerei
+животное	Tier
+жизнь	Leben
+житель	Bewohner, Einwohner
+журнал	Zeitschrift
+журналист	Journalist
+за	für, an
+завод	Betrieb
+завтра	morgen
+завтрак	Frühstück
+задание	Aufgabe, Auftrag
+задача	Problem, Aufgabe
+закат	Sonnenuntergang
+закон	Gesetz
+закрыт	geschlossen
+зал	Saal
+замечательный	hervorragend
+замок	Türschloss
+замужем	verheiratet
+занят	beschäftigt, besetzt
+занятие	Beschäftigung, Unterricht
+запад	Westen
+западный	westlich
+зачем	wozu
+заяц	Hase
+звонок	Anruf
+звук	Laut, Klang
+здание	Gebäude
+здесь	hier
+здоров	gesund
+здравствуйте!	Hallo!	Guten Tag!
+зелёный	grün
+земля	Erde
+зеркало	Spiegel
+зима	Winter
+зимний	winterlich
+зимой	im Winter
+злой	böse
+знакомство	Bekanntschaft
+знакомый	Bekannter, bekannt
+значение	Bedeutung
+золото	Gold
+золотой	golden, goldig
+зонт	Regenschirm
+зоопарк	Zoo
+зрение	Sehvermögen
+зуб	Zahn
+и	und
+игла	Nadel
+игра	Spiel
+игрушка	Spielzeug
+из	aus
+известный	bekannt
+извините!	Entschuldigen Sie!
+или	oder
+имя	Vorname
+инженер	Ingenieur
+иногда	manchmal
+иностранец	Ausländer
+иностранка	Ausländerin
+иностранный	ausländisch
+институт	Hochschule, Institut
+интересно	interessant
+Интернет	Internet
+искусство	Kunst
+испанец	Spanier
+испанка	Spanierin
+испанский	spanisch
+историк	Historiker
+исторический	historisch
+история	Geschichte
+их	ihr, ihre
+июль	Juli
+июнь	Juni
+к	zu, an, bis
+кабинет	Arbeitszimmer
+каждый	jeder
+как	wie
+какой	welcher
+каникулы	Ferien
+карандаш	Bleistift
+карта	Karte
+картина	Bild, Gemälde
+картофель	Kartoffel
+касса	Kasse
+кассета	Kassette
+кафе	Café
+каша	Brei
+квартира	Wohnung
+килограмм	Kilogramm
+километр	Kilometer
+кино	Film, Kino
+киоск	Kiosk
+китаец	Chinese
+китаянка	Chinesin
+китайский	Chinesisch
+класс	Klasse
+клуб	Klub, Verein
+ключ	Schlüssel
+книга	Buch
+когда	wann, wenn
+колбаса	Wurst
+команда	Manschaft
+комедия	Komödie
+комната	Zimmer
+композитор	Komponist
+компьютер	Computer
+конверт	Briefumschlag
+конец	Ende
+конечно	natürlich
+конфета	Praline
+концерт	Konzert
+конь	Pferd
+копейка	Kopeke/	russ.	Pfennig
+корабль	Schiff
+коридор	Flur
+коричневый	braun
+короткий	kurz
+космический	kosmisch
+космонавт	Kosmonaut, Astronaut
+космос	Weltall
+костюм	Anzug, Kostüm
+который	welcher
+кофе	Kaffee
+кошка	Katze
+красивый	hübsch
+красный	rot
+кресло	Sessel
+кровать	Bett
+кролик	Kaninchen
+круглый	rund
+кто	wer
+кто-то	jemand
+куда	wohin
+культура	Kultur
+курица	Huhn
+курс	Kurs
+куртка	Jacke
+кухня	Küche
+лампа	Lampe
+лебедь	Schwan
+левый	linke
+легко	einfach
+лекарство	Medizin
+лекция	Lektion
+лес	Wald
+лестница	Treppe, Leiter
+летний	sommerlich
+лето	Sommer
+летом	im Sommer
+лёгкий	leicht
+лимон	Zitrone
+литература	Literatur
+лифт	Fahrstuhl
+лицо	Gesicht
+лоб	Stirn
+ложка	Löffel
+луна	Mond
+лучше	besser
+лыжи	Ski
+любимый	Lieblings-
+любовь	Liebe
+люди	Menschen
+магазин	Geschäft
+магнитофон	Tonbandgerät
+май	Mai
+маленький	klein
+мало	wenig
+мальчик	Junge
+мама	Mama
+марка	Marke
+март	März
+масло	Butter
+математик	Mathematiker
+математика	Mathematik
+мать	Mutter
+машина	Maschine
+медицина	Medizin
+медленно	langsam
+медсестра	Krankenschwester
+международный	international
+менеджер	Manager
+меньше	weniger
+место	Platz
+месяц	Monat
+метр	Meter
+метро	U-Bahn
+мечта	Traum
+милиционер	Millionär
+милиция	Miliz/Polizei
+миллион	Million
+минус	minus
+минута	Minute
+мир	Frieden, Welt
+младший	jüngere
+многие	viele
+много	viel
+модный	modisch
+может	быть	vielleicht
+можно	man kann
+мой	mein
+молодёжный	jugendlich
+молодёжь	Jugend
+молодец	Prachtkerl
+молоко	Milch
+момент	Moment
+море	Meer
+мороженое	Eiscreme
+москвич	Moskauer
+москвичка	Moskauerin
+муж	Ehemann
+мужской	männlich
+мужчина	Mann
+музей	Museum
+музыка	Musik
+музыкант	Musiker
+мультфильм	Zeichentrickfilm
+мы	wir
+мыло	Seife
+мягкий	weich
+мясо	Fleisch
+мяч	Ball
+на	auf
+наверное	wahrscheinlich
+надо	man muss
+назад	zurück
+наконец	schließlich
+налево	nach links
+направо	nach rechts
+например	zum Beispiel
+народ	Leute
+напротив	gegenüber
+наука	Wissenschaft
+научный	wissenschaftlich
+национальный	national
+начало	Anfang
+наш	unser
+не	nicht
+небо	Wolke
+невозможно	unmöglich
+недавно	vor kurzem
+недалеко	unweit
+неделя	Woche
+нельзя	man darf nicht
+немец	Deutscher
+немецкий	Deutsch
+немка	Deutsche
+несколько	einige
+несчастный	unglücklich
+несчастье	Unglück
+нет	nein
+нигде	nirgends
+никогда	nie, niemals
+никто	niemand
+никуда	nirgendwohin
+ничего	nichts
+но	aber
+новость	Neuigkeit
+новый	neu
+нога	Bein
+нож	Messer
+ноль	Null
+номер	Nummer
+нормально	normal
+нос	Nase
+носки	Socken
+ночь	Nacht
+ночью	nachts
+ноябрь	November
+нужный	notwendig, nötig
+о	über, von
+обед	Mittagessen
+образование	Bildung
+обувь	Schuhe
+общежитие	Wohnheim
+общество	Gesellschaft
+общий	allgemein, gesamt
+объявление	Erklärung, Anzeige
+обыкновенный	gewöhnlich
+обычно	normal
+обязательно	unbedingt
+овощи	Gemüse
+огромный	gewaltig
+одежда	Kleidung
+один	eins
+одиннадцать	elf
+однажды	einmal
+озеро	See
+окно	Fenster
+около	ungefähr
+октябрь	Oktober
+он	er
+она	sie
+оно	es
+они	Sie	*Plural
+опасно	gefährlich
+опера	Oper
+оптимист	Optimist
+опытный	erfahren
+опять	wieder
+осень	Herbst
+осенью	im Herbst
+осенний	herbstlich
+особенно	besonders
+остановка	Haltestelle
+осторожно	vorsichtig
+остров	Insel
+ответ	Antwort
+отдых	Erholung
+отец	Vater
+открытие	Eröffnung
+открытка	Postkarte
+откуда	woher
+отлично	ausgezeichnet
+отсюда	von hier
+оттуда	von dort
+отчество	Vatersname
+очень	sehr
+очки	Brille
+ошибка	Fehler
+палец	Finger
+пальто	Mantel
+памятник	Denkmal
+папа	Papa
+парк	Park
+паспорт	Reisepass
+певец	Sänger
+певица	Sängerin
+пенсионер	Rentner
+пенсионерка	Rentnerin
+пенсия	Rente
+первый	erster
+перевод	Übersetzung
+переводчик	Übersetzer, Dolmetscher
+передача	Sendung
+перерыв	Pause
+переход	Übergang
+песня	Lied
+печенье	Gebäck
+пешком	zu Fuß
+пианино	Klavier
+пиво	Bier
+писатель	Schriftsteller
+письмо	Brief
+план	Plan
+платье	Kleid
+плащ	Regenmantel
+плеер	CD-Spieler
+плохо	schlecht
+плохой	schlimm
+площадь	Platz
+плюс	plus
+по	über, durch
+по-английски	auf Englisch
+победа	Sieg
+погода	Wetter
+подарок	Geschenk
+подруга	Freundin
+поезд	Zug
+поездка	Fahrt
+пожалуйста	Bitte
+поздно	spät
+по-испаски	auf Spanisch
+Пока!	Tschüss!
+по-китайски	auf Chinesisch
+пол	Fußboden	/	Geschlecht
+поле	Feld
+полезный	nützlich
+поликлиника	Poliklinik
+политика	Politik
+политический	politisch
+полка	Regal
+половина	Hälfte
+полтора	anderthalb
+по-моему	meiner Meinung nach
+понедельник	Montag
+по-немецки	auf Deutsch
+понятно	klar, verstanden
+популярный	beliebt
+по-русски	auf Russisch
+после	nach
+последний	letzter
+посольство	Botschaft
+потом	danach
+потому	что	weil
+по-французски	auf Französisch
+почему	warum
+почта	Post
+почти	fast
+поэзия	Poesie
+поэт	Poet
+поэтому	deshalb
+правда	Wahrheit
+правильный	richtig
+правительство	Regierung
+право	Recht
+правозащитник	Bürgerrechtler
+праздник	Feiertag
+предмет	Gegenstand
+президент	Präsident
+прекрасно	großartig
+премьер	Ministerpräsident
+преподаватель	Dozent, Lehrer
+преподавательница	Dozentin, Lehrerin
+пресса	Presse
+привет	Gruß, Hallo
+приезд	Ankunft
+пример	Beispiel
+природа	Natur
+причина	Ursache
+приятно	angenehm
+проблема	Problem
+программа	Programm
+продавец	Verkäufer
+продукты	Produkte
+проспект	Allee
+простой	einfach, schlicht
+профессия	Beruf
+процент	Prozent
+прошлый	vergangen
+прямо	geradeaus
+психолог	Psychologe
+психология	Psychologie
+птица	Vogel
+пятнадцать	fünfzehn
+пятница	Freitag
+пять	fünf
+пятьдесят	fünfzig
+пятьсот	fünfhundert
+работа	Arbeit
+рабочий	Arbeiter
+рад	froh
+радию	Radio
+радость	Freude
+радуга	Regenbogen
+раз	Mal
+размер	Ausmaß, Umfang
+разный	unterschiedlich
+район	Gebiet
+рано	früh
+раньше	früher
+рассказ	Erzählung
+ребёнок	Kind
+редко	selten
+режиссёр	Regisseur
+результат	Resultat
+река	Fluß
+религия	Religion
+ресторан	Restaurant
+рис	Reis
+родина	Heimat
+родители	Eltern
+родной	Verwandter
+рождение	Geburt
+роль	Rolle
+роман	Roman
+российский	russisch
+рот	Mund, Maul
+рубашка	Hemd
+рубль	Rubel
+рука	Hand
+русский	Russe, russisch
+русско-английский	Russisch-englischer
+ручка	Kugelschreiber, Händchen
+рыба	Fisch
+рынок	Markt
+рядом	neben
+с	mit
+сад	Garten
+салат	Salat
+сам	selber
+самолёт	Flugzeug
+самостоятельно	selbständig
+самый	derselbe,
+сантиметр	Zentimeter
+сапоги	Stiefel
+сахар	Zucker
+свет	Licht, Welt
+светлый	hell, licht
+свободный	frei
+свой	eigener
+себя	sich
+север	Norden
+северный	nördlich
+сегодня	heute
+седьмой	siebter
+сейчас	jetzt
+секретарь	Sektretär
+секунда	Sekunde
+семнадцать	siebzehn
+семь	sieben
+семьдесят	siebzig
+семьсот	siebenhundert
+семья	Familie
+сентрябрь	September
+сердце	Herz
+серый	grau
+серьёзно	ernst
+сестра	Schwester
+сигарета	Zigarette
+сильный	stark
+симпатичный	sympatisch
+синий	blau
+система	System
+сказка	Märchen
+сколько	wie viel
+скоро	bald
+скрипка	Geige
+скучно	langweilig
+слева	links
+сладкий	süß
+следующий	nächster
+словарь	Wörterbuch
+слово	Wort
+случай	Zufall
+смелый	mutig
+смерть	Tod
+смешной	lustig
+сначала	zuerst
+снег	Schnee
+снова	erneut
+собака	Hund
+собор	Dom
+собрание	Versammlung
+совет	Rat
+современный	modern
+согласие	Einverständnis
+сок	Saft
+солнце	Sonne
+соль	Salz
+сообщение	Mitteilung
+сорок	vierzig
+сосед	Nachbar
+соседка	Nachbarin
+спасибо	Danke
+специалист	Spezialist
+специальность	Fachbereich
+спокойно	ruhig
+спорт	Sport
+спортивный	sportlich
+спортсмен	Sportler
+справа	rechts
+сразу	sofort
+среда	Mittwoch
+средний	mittlerer
+стадион	Stadion
+стакан	Glas
+станция	Station
+старость	Alter
+старший	älter
+старый	alt
+статья	Artikel
+стена	Wand, Mauer
+стихи	Gedichte
+сто	hundert
+стол	Tisch
+столица	Hauptstadt
+столовая	Kantine
+страна	Land
+страница	Seite
+строитель	Bauarbeiter
+студент	Student
+студентка	Studentin
+студенческий	studentisch
+стул	Stuhl
+суббота	Samstag
+сувенир	Souvenir
+сумка	Tasche
+суп	Suppe
+сутки	Tag und Nacht
+счастливый	glücklich
+счастье	Glück
+сын	Sohn
+сыр	Käse
+сюда	hierher
+так	so
+также	ebenso
+такой	solch
+такси	Taxi
+талант	Talent
+талантливый	talentiert
+там	dort
+танец	Tanz
+тарелка	Teller
+твёрдый	hart, fest
+твой	dein
+театр	Theater
+текст	Text
+телевизор	Fernseher
+телеграмма	Telegramm
+телефон	Telefon
+температура	Fieber, Temperatur
+теннис	Tennis
+теперь	jetzt, nun
+тепло	warm
+тетрадь	Heft
+техника	Technik
+технический	technisch
+тёмный	dunkel
+тёплый	warm
+тётя	Tante
+тихо	leise, ruhig
+товарищ	Genosse, Kamerad
+тогда	dann
+то	есть	das heißt
+тоже	auch
+только	nur
+торт	Torte
+тот	jener
+точка	Punkt
+точно	genau
+трамвай	Straßenbahn
+транспорт	Transport
+третий	dritter
+три	drei
+тридцать	dreißig
+тринадцать	dreizehn
+триста	dreihundert
+троллейбус	Oberleitungsbus
+трудный	schwierig
+туда	dorthin
+турист	Tourist
+тут	hier
+туфли	Pantoffeln, Schuhe
+ты	du
+тысяча	tausend
+тяжёлый	schwer
+у	und
+уважаемый	verehrt
+уверенный	sicher, zuversichtlich
+удар	Schlag
+ударение	Betonung
+удивительный	erstaunlich
+удобный	bequem
+удоволсьвие	Vergnügen
+уже	schon
+ужин	Abendessen
+узкий	schmal
+улица	Straße
+умный	klug
+универмаг	Kaufhaus
+университет	Universität
+упражнение	Übung
+урок	Unerrichtsstunde
+успех	Erfolg
+утро	Morgen
+утром	morgens
+ухо	Ohr
+учебник	Lehrbuch
+ученик	Schüler
+ученица	Schülerin
+учёный	Wissenschaftler
+учитель	Lehrer
+учительница	Lehrerin
+фабрика	Fabrik
+факс	Fax
+факультет	Fakultät
+фамилия	Nachname
+февраль	Februar
+фермер	Farmer
+физик	Physiker
+физика	Physik
+физический	physikalisch
+филолог	Philologe
+филологический	philologisch
+филология	Philologie
+философ	Philosoph
+философия	Philosophie
+философский	philosophisch
+фильм	Film
+фирма	Firma
+флешка	USB-Speicherstick
+фонтан	Springbrunnen
+фотоаппарат	Fotoapparat
+фотография	Fotografie
+фраза	Satz
+француженка	Französin
+француз	Franzose
+французский	Französisch
+фрукты	Obst
+футбол	Fußball
+футболист	Fußballer
+характер	Charakter
+химик	Chemiker
+химический	chemisch
+химия	Chemie
+хлеб	Brot
+хобби	Hobby
+хозяин	Hausherr
+хозяйка	Hausherrin
+хоккей	Hockey
+хоккеист	Hockeyspieler
+холодно	kalt
+хорошо	gut
+художник	Künstler
+хуже	schlechterer
+царь	Zar
+цвета	Farben
+цветной	farbig
+цветы	Blumen
+целый	ganz
+цена	Preis
+центр	Zentrum
+центральный	zentral
+цирк	Zirkus
+циффра	Ziffer
+чай	Tee
+чайник	Teekanne
+час	Stunde
+часто	oft
+часть	Teil
+часы	Uhr
+чашка	Tasse
+человек	Mensch
+чем	als
+чемпион	Sieger
+через	über, durch
+честный	ehrlich
+четверг	Donnerstag
+четыре	vier
+четыреста	vierhundert
+четырнадцать	vierzehn
+чёрный	schwarz
+число	Zahl, Datum
+чистый	sauber
+читатель	Leser
+чтение	Lektüre
+что	was
+чтобы	damit
+шапка	Mütze
+шарф	Schal
+шахматист	Schachspieler
+шахматы	Schach
+шестнадцать	sechzehn
+шесть	sechs
+шестьдесят	sechzig
+шестьсот	sechshundert
+широкий	breit, weit
+шкаф	Schrank
+школа	Schule
+школьник	Schüler
+школьница	Schülerin
+шоколад	Schokolade
+шутка	Witz
+щелкунчик	Nussknacker
+щи	Kohlsuppe
+экзамен	Prüfung
+экономика	Wirtschaft
+экономист	Volkswirt
+экономический	wirtschaftlich
+экскурсия	Ausflug
+экскурсовод	Reiseführer
+энергичный	energisch
+энергия	Energie
+этаж	Etage
+это	das
+этот	dieser
+юбка	Rock
+юг	Süden
+южный	südlich
+юмор	Humor
+юность	Jugendzeit
+юноша	junger Mann
+юридический	juristisch
+юрист	Jurist
+я	ich
+яблоко	Apfel
+ягода	Beere
+язык	Sprache, Zunge
+яйцо	Ei
+январь	Januar
+яркий	leuchtend

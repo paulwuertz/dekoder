@@ -1,6 +1,7 @@
-static1000
 utils/ru1000.txt
-insertCSV2db.py
+static1000/dicts
+static1000/src
+static1000/dict.py
 dekoder/__pycache__
 dekoder/app.db
 dekoder/static/bower_components
