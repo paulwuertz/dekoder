@@ -62,7 +62,7 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 			    	$('#p{{ oloop.index }}w{{ loop.index }}').autocomplete({
 					    data: {
 					      {% for v in value %}
-					       "{{v}}": null,
+					       "{{v['w']}}": null,
 					      {% endfor %}
 					    },
 					    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.

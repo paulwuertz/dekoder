@@ -31,8 +31,9 @@ bundles = {
 }
 
 #Available languages
-langs=("AR","DE","EN","ES","EO","FR","JP","PL","RU","ZH")
-langs2dict={"DEAR":WDictDEAR,"DE":WDictDEXX,"DEEN":WDictDEEN,"DEES":WDictDEES,"DEEO":WDictDEEO,"DEFR":WDictDEFR,"DEJP":WDictDEJP,"DEPL":WDictDEPL,"DERU":WDictDERU,"DEZH":WDictDEZH}
+langs=("DE","EN","ES","EO","RU")
+langs2dict={"DEXX":WDictDEXX,"DEEN":WDictDEEN,"DEES":WDictDEES,"DEEO":WDictDEEO,"DERU":WDictDERU,
+            "XXDE":WDictXXDE,"ENDE":WDictENDE,"ESDE":WDictESDE,"EODE":WDictEODE,"RUDE":WDictRUDE}
 assets = Environment(app)
 assets.register(bundles)
 
@@ -67,17 +68,17 @@ def format():
             newW=0 #cnts the number of new words
             #counts up the references of the word or adds a new word to the lang specific dict
             for par in request.json["json"]:
+                if request.json["lang"]=="DE": TDict=WDictDEXX;
+                else :                         TDict=WDictXXDE;
                 for w in par:
                     pureWord=w.strip(" ,.\n").lower()
-                    tr=db.session.query(WDictDEXX).filter(WDictDEXX.word==pureWord).one_or_none()
+                    tr=db.session.query(TDict).filter(TDict.word==pureWord).one_or_none()
                     #print(w)
                     if tr==None: 
                         newW+=1
-                        print("new",tr)
-                        w = WDictDEXX(pureWord, json.dumps({"refCnt":1,"w":[]})) #TODO should be generalized by using request.json["lang"]+"XX"
+                        w = TDict(pureWord, json.dumps({"refCnt":1,"w":[]})) #TODO should be generalized by using request.json["lang"]+"XX"
                         db.session.add(w)
                     else:
-                        print("old")
                         ref=json.loads(tr.json)
                         ref["refCnt"]+=1;
                         tr.json=json.dumps(ref)
@@ -116,7 +117,7 @@ def dekodeTextLang(textname,lang):
     for par in json.loads(txt.json):
         auto = {}
         for t in par:
-            tr=db.session.query(WDictDEXX).filter(WDictDEXX.word==t.strip(" ,.\n").lower()).one_or_none()
+            tr=db.session.query(WDictDEXX).filter(WDictDEXX.word==t.strip(" ,¿.\n").lower()).one_or_none()
             if tr==None: auto[t]={}
             else       : auto[t]=json.loads(tr.json)
         autotext.append(auto)
@@ -151,5 +152,3 @@ def readTextLang():
 app.secret_key = 'super secret key'
 if __name__=="__main__":
     app.run(debug=True)
-
-#t=[{"This":{"w":"","e":""},"is":{"w":"","e":""},"a dummy text.":{"w":"","e":""},"In the same manner":{"w":"","e":""},"as":{"w":"","e":""},"seen":{"w":"","e":""},"here":{"w":"","e":""},"you":{"w":"","e":""},"have to":{"w":"","e":""},"preformat":{"w":"","e":""},"your text.":{"w":"","e":""},"You":{"w":"","e":""},"can":{"w":"","e":""},"enter":{"w":"","e":""},"word units":{"w":"","e":""},"by seperating":{"w":"","e":""},"each":{"w":"","e":""},"by":{"w":"","e":""},"a double whitespace.":{"w":"","e":""}, "On the right":{"w":"","e":""},"can see":{"w":"","e":""},"the preview,":{"w":"","e":""},"where":{"w":"","e":""},"each word unit":{"w":"","e":""},"is seperated":{"w":"","e":""},"a black stroke":{"w":"","e":""},"from":{"w":"","e":""},"one another. ":{"w":"","e":""}},{"":{"w":"","e":""}},{"Also":{"w":"","e":""},"by":{"w":"","e":""},"using":{"w":"","e":""},"two newlines":{"w":"","e":""},"there will be":{"w":"","e":""},"a paragraph.":{"w":"","e":""}},{"":{"w":"","e":""}},{"This is":{"w":"","e":""},"the first":{"w":"","e":""},"of two stages":{"w":"","e":""},"to dekode":{"w":"","e":""},"a text. The second":{"w":"","e":""},"will be":{"w":"","e":""},"to add":{"w":"","e":""},"translations":{"w":"","e":""},"for":{"w":"","e":""},"the word units":{"w":"","e":""},"and":{"w":"","e":""},"if":{"w":"","e":""},"necessary":{"w":"","e":""},"explainations.":{"w":"","e":""}},{"":{"w":"","e":""}},{"You":{"w":"","e":""},"can":{"w":"","e":""},"use":{"w":"","e":""},"the button":{"w":"","e":""},"above":{"w":"","e":""},"to split":{"w":"","e":""},"all":{"w":"","e":""},"words":{"w":"","e":""},"from":{"w":"","e":""},"your text":{"w":"","e":""},"and":{"w":"","e":""},"only":{"w":"","e":""},"regroup":{"w":"","e":""},"the multi-word-units.":{"w":"","e":""}},{"":{"w":"","e":""}}]
