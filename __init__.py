@@ -1,0 +1,1 @@
+from dekoder.models import *

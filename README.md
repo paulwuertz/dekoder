@@ -9,3 +9,9 @@ pip install -r requirements.txt
 cd dekoder/static/ && bower install && cd ../..
 ./run
 ```
+
+### TODO
+
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
