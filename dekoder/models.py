@@ -134,3 +134,19 @@ class WDictRUDE(db.Model):
     def __init__(self, name, jsn):
         self.word = name
         self.json = jsn
+
+class WDictDEHE(db.Model):
+    __tablename__ = "WDictDEHE"
+    word = db.Column(db.String(), unique=True, primary_key=True)
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
+        self.json = jsn
+class WDictHEDE(db.Model):
+    __tablename__ = "WDictHEDE"
+    word = db.Column(db.String(), unique=True, primary_key=True)
+    json = db.Column(db.String())
+    def __init__(self, name, jsn):
+        self.word = name
+        self.json = jsn
+

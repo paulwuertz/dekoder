@@ -73,3 +73,11 @@ div.par {
     border-radius: 15px;
     padding-right: 5px;
  }
+ 
+ #seperate, #clear {
+     width:auto;
+ }
+ 
+ .lang_select {
+     width:180px;
+ }

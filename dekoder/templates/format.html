@@ -16,7 +16,7 @@
 				   </div></div>
 				   <div class="row">
 				   		 <div class="input-field col  s10 offset-s1">
-						    <select id="lang">
+						    <select id="lang" >
 						      <option value="" disabled selected>Choose the source language</option>
 						      {% for lang in langs %}
 						      <option value="{{ loop.index }}">{{ lang }}</option>
@@ -39,6 +39,7 @@
 	  <div class="row">
 		   <div class="row">
 			   <a id="seperate" class="col s2 offset-s1 waves-effect waves-light btn">Seperate all words</a>
+               <a id="clear" class="col s2 offset-s1 waves-effect waves-light btn">Clear</a>
 		   </div>
 	      <!--Input text-->
 		  <div class="col s12 m6 row">
@@ -78,6 +79,10 @@
 		//refresh on change
 		$('#dekodeText').on('input',function(e){
 			showDekodeable();
+		});
+        
+        $("#clear" ).click(function() {
+            $('#dekodeText').val("");
 		});
 		
 		//init preview text
