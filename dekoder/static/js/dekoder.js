@@ -76,20 +76,31 @@ function showDekodeable() {
 //function to send dekoded text as AJAX
 function postDekoded() {
     $('#save').click(function() {
-        var name = $('#txtUsername').val();
-        var lang = $('#txtPassword').val();
         var json = html2json();
         $.ajax({
             url: '',
-            data:JSON.stringify({"name":name,"lang":lang,"json":json}),
-            contentType: 'application/json; charset=utf-8',   
-            dataType: 'json',
+            data:JSON.stringify({"json":json}),
+            contentType: 'application/json; charset=utf-8',  
             type: 'POST',
             success: function(response) {
                 Materialize.toast('Formated text posted and saved.', 7000, 'rounded')
             },
-            error: function(error) {
-                Materialize.toast('Some error occured...', 7000, 'rounded')
+            error: function(jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Not connect.\n Verify Network.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
             }
         });
     });

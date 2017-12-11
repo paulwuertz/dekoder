@@ -16,6 +16,7 @@
               <th>Name</th>
               <th>SourceLang</th>
               <th>Dekode language</th>
+              <th>Text beginning</th>
               <th></th>
           </tr>
         </thead>
@@ -27,15 +28,33 @@
               <td>{{ tekst.lang }}</td>
               <td>  
                 <div class="input-field col s12">
-                  <select id="{{ tekst.name }}-sel">
+                  <select id="{{ tekst.name }}-sel" class="lang_select">
+                    {% if tekst.lang == "DE" %}
                     <option value="" disabled selected>Choose your option</option>
-                    {% for l in langs %}
-                    <option value="{{l}}">{{l}}</option>
-                    {% endfor %}
+                        {% for l in langs %}
+                            {% if l != tekst.lang %}
+                                <option value="{{l}}">{{l}}</option>
+                            {% endif %}
+                        {% endfor %}
+                    {% else %}
+                            <option value="DE">DE</option>
+                    {% endif %}
+                    
                   </select>
                 </div>
               </td>
-              <td><a class="waves-effect waves-light btn" id="{{ tekst.name }}-btn" href="dekode/{{tekst.name}}">Dekode</a></td>
+              <td>
+                <div class="input-field col s12">
+                    {{ tekst.json }}
+                </div>
+              </td>
+              <td>
+                {% if tekst.lang == "DE" %}
+                    <a class="waves-effect waves-light btn" id="{{ tekst.name }}-btn" href="dekode/{{tekst.name}}">Dekode</a>
+                {% else %}  
+                    <a class="waves-effect waves-light btn" id="{{ tekst.name }}-btn" href="dekode/{{tekst.name}}/DE">Dekode</a>
+                {% endif %}
+              </td>
             </tr>
             {% endfor %}
         </tbody>

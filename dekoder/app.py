@@ -1,4 +1,6 @@
 # app.py or app/__init__.py
+
+# version 0.3 changed by JK 
 import json
 from sqlalchemy.exc import IntegrityError
 from flask import Flask, render_template, request, flash
@@ -31,9 +33,11 @@ bundles = {
 }
 
 #Available languages
-langs=("DE","EN","ES","EO","RU")
-langs2dict={"DEXX":WDictDEXX,"DEEN":WDictDEEN,"DEES":WDictDEES,"DEEO":WDictDEEO,"DERU":WDictDERU,
-            "XXDE":WDictXXDE,"ENDE":WDictENDE,"ESDE":WDictESDE,"EODE":WDictEODE,"RUDE":WDictRUDE}
+langs=("DE","EN","ES","EO","RU","HE")
+langs2dict={"DEXX":WDictDEXX,"DEEN":WDictDEEN,"DEES":WDictDEES,"DEEO":WDictDEEO,"DERU":WDictDERU, "DEHE":WDictDEHE,
+            "XXDE":WDictXXDE,"ENDE":WDictENDE,"ESDE":WDictESDE,"EODE":WDictEODE,"RUDE":WDictRUDE, "HEDE":WDictHEDE}
+            
+text_beginning_len = 30
 assets = Environment(app)
 assets.register(bundles)
 
@@ -44,7 +48,9 @@ with app.app_context():
 
 @app.route('/')
 def index():
-	return render_template("index.html", langs=langs)
+    ###return render_template("index.html", langs=langs)
+    return render_template("format.html", langs=langs)
+	
 
 #############FORMAT
 # get:  *lets you enter a text with visual preview of the simple markup to convert text to an array of composed of single word units
@@ -76,14 +82,14 @@ def format():
                     #print(w)
                     if tr==None: 
                         newW+=1
-                        w = TDict(pureWord, json.dumps({"refCnt":1,"w":[]})) #TODO should be generalized by using request.json["lang"]+"XX"
+                        w = TDict(pureWord, json.dumps({"refCnt":1,"w":[pureWord], "lang":[]})) #TODO should be generalized by using request.json["lang"]+"XX"
                         db.session.add(w)
                     else:
                         ref=json.loads(tr.json)
                         ref["refCnt"]+=1;
                         tr.json=json.dumps(ref)
             db.session.commit()
-            #print("texta")
+            
             return json.dumps({'message':"Formated text was succesfully saved! "+str(newW)+" new Words added..."}), 200, {'ContentType':'application/json'} 
         except ValidationError:
             return json.dumps({'message':"No valid text format submitted..."}), 200, {'ContentType':'application/json'}
@@ -100,54 +106,165 @@ def format():
 @app.route('/dekode')
 def dekode():
     texts = Text.query.all()
+    for txt in texts: 
+        short_txt = getTextBeginning(txt)
+        txt.json = short_txt
+   
     return render_template("getFormatedTexts.html", t=texts, langs=langs)
 
 # shows you all the languages to dekode a text to
 @app.route('/dekode/<string:textname>')
 def dekodeText(textname):
-    return render_template("getFormatedTexts.html", langs=langs, t=t)
+    texts = db.session.query(Text).filter(Text.name==textname)
+    for txt in texts:
+        short_txt = getTextBeginning(txt)
+        txt.json = short_txt
+        
+    return render_template("getFormatedTexts.html", langs=langs, t=texts)
 
 # get:  * shows you the formated text and lets you add a dekodation to each word unit
 #       * autocompletes by showing existing translations from former entries in the database
 # post: * saves the dekoded text with all the translations entered
 @app.route('/dekode/<string:textname>/<string:lang>', methods=['GET', 'POST'])
 def dekodeTextLang(textname,lang):
+   
+    # read original text from database for determinate source language
     txt = db.session.query(Text).filter(Text.name==textname).one()#.filter(Text.name == textname).one()#query(Text).filter(Text.name == textname).first()
+    
+    
+    
+    FROMlang = txt.lang
+    TOlang = lang
+    dictLangKey = FROMlang+TOlang
+    TDictDekoded=langs2dict[dictLangKey]
+    
+    # if POST: save translated words
+    if request.method == 'POST':
+        for par in request.json["json"]:
+            #print ("par: " + str(par))
+            for orgWord in par:
+                #print ("orgWord: "+orgWord.encode('utf-8') )
+                if 'w' in par[orgWord]:
+                    if par[orgWord]['w'] != None:
+                        dekodedWord = par[orgWord]['w']
+                        #print (dekodedWord.encode('utf-8') )
+                        # add to language table
+                        tr=db.session.query(TDictDekoded).filter(TDictDekoded.word==orgWord).one_or_none()
+                        if tr==None: 
+                            #print ("Word " + orgWord.encode('utf-8') + " is not found in Table " + dictLangKey )
+                            w = TDictDekoded(orgWord, json.dumps({"w":[dekodedWord]}))
+                            db.session.add(w)
+                        else:
+                            pass
+                            #print ("Word " + orgWord.encode('utf-8') + " FOUND in Table " + dictLangKey )
+                        
+                        # update languages list in text Table
+                        if FROMlang =="DE": 
+                            TDict=WDictDEXX
+                        else : 
+                            TDict=WDictXXDE
+                        tr=db.session.query(TDict).filter(TDict.word==orgWord.strip(" ,.\n").lower()).one_or_none()
+                        if tr != None:
+                            ref=json.loads(tr.json)
+                            if not TOlang in ref["lang"]:
+                                ref["lang"].append(TOlang);
+                                tr.json=json.dumps(ref)
+                            
+                        
+    
+        db.session.commit()
+        
+     
+    # get words from text ( with autocomplete with translated items )
     autotext=[]
     for par in json.loads(txt.json):
         auto = {}
         for t in par:
-            tr=db.session.query(WDictDEXX).filter(WDictDEXX.word==t.strip(" ,¿.\n").lower()).one_or_none()
+            #print (t)
+            
+            tr=db.session.query(TDictDekoded).filter(TDictDekoded.word==t).one_or_none()
             if tr==None: auto[t]={}
             else       : auto[t]=json.loads(tr.json)
         autotext.append(auto)
+        
+    #print (autotext)
     
     text = {"name":txt.name,"FROMlang":txt.lang,"TOlang":lang,"json":autotext}
     p = { "p":len(text), "pars": [len(par) for par in text] }
     return render_template("dekode.html", langs=langs, t=text, parWArr=str(p))
+    
+# builds a whole text from json 
+def Json2Text(txt):
+    res = ""  
+    for par in json.loads(txt.json):
+        res += ' '.join('%s' %t for t in par)
+        
+    return res        
 
+# cuts text to text_beginning_len lenght
+def getTextBeginning(json):
+    txt = Json2Text(json)  
+    txt = (txt[:text_beginning_len] + '..') if len(txt) > text_beginning_len else txt
+    
+    return txt
+    
+    
+    
+    
 ############READ
 # lets you read all the dekoded texts to practise your target language ^^
 
 # shows you all dekoded text
 @app.route('/read', methods=['GET', 'POST'])
 def read():
-    pass
+    dekoded_texts = Text.query.all()
+    for txt in dekoded_texts:
+        #check if this text is translated TODO
+        txt.json = Json2Text(txt)
+    return render_template("readText.html",  t=dekoded_texts, langs=langs)
+    
 
 #shows you all languages a text is dekoded to
 @app.route('/read/<string:textname>', methods=['GET'])
-def readTextPDF():
+def readText():
     pass
 
 # converts on dekodation of a text into a pdf for print
 @app.route('/read/<string:textname>_<string:lang>.pdf', methods=['GET'])
-def readText():
+def readTextPDF():
     pass
 
 # shows you a dekoded text in one target language
 @app.route('/read/<string:textname>/<string:lang>', methods=['GET'])
-def readTextLang():
-	pass
+def readTextLang(textname,lang):
+    # read original text from database 
+    org_text = db.session.query(Text).filter(Text.name==textname).one()
+    if org_text != None:
+        
+        dekoded_text = Text(textname, lang, "")
+        
+        FROMlang = org_text.lang
+        TOlang = lang
+        dictLangKey = FROMlang+TOlang
+        
+        TDictDekoded=langs2dict[dictLangKey]
+        
+        dekodedtext=""
+        for par in json.loads(org_text.json):
+            for t in par:
+                tr=db.session.query(TDictDekoded).filter(TDictDekoded.word==t).one_or_none()
+                if tr != None:
+                    ref=json.loads(tr.json)
+                    for v in ref["w"]:
+                        dekodedtext += v + " " 
+                    print (dekodedtext.encode('utf-8') )
+                
+            
+        dekoded_text = Text(textname, lang, dekodedtext)
+        org_text = Json2Text(org_text)
+
+    return render_template("readTextLang.html",  org_t=org_text, dekoded_t=dekodedtext)
+	
 
 app.secret_key = 'super secret key'
 if __name__=="__main__":

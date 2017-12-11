@@ -34,6 +34,7 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 		          	{% endfor %}
 		          	</div>
 		          {% endfor %}
+                  <a class="waves-effect waves-light btn" id="save" >Save</a>
 		        </div>
 		      </div>
 		  </div>
@@ -46,7 +47,6 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 {% block test_js %}
 <script type="text/javascript">
 		numpars={{ parWArr|safe }}
-
 
 		$(function() {
 		    $('#save').click(postDekoded());
@@ -61,9 +61,12 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 			    {% if not w=="" and value!=[] %}
 			    	$('#p{{ oloop.index }}w{{ loop.index }}').autocomplete({
 					    data: {
-					      {% for v in value %}
-					       "{{v['w']}}": null,
-					      {% endfor %}
+                            {% for v in value %}
+                                {% for dekoded_w in value[v] %}
+                                '{{ dekoded_w }}' : null, 
+                                {% endfor %}
+                            {% endfor %}        
+                            
 					    },
 					    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
 					    onAutocomplete: function(val) {
