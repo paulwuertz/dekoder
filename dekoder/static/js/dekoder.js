@@ -1,4 +1,3 @@
-
 function removeMultiWhiteSpace(str) {
     return str.replace(/ +/g, " ");
 }

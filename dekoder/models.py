@@ -42,8 +42,7 @@ class Dekoded(Base):
     text_id = db.Column(db.Integer, db.ForeignKey('text.id'))
     text = db.relationship('Text', backref=db.backref('posts', lazy='dynamic'))
     def __init__(self, json):
-        self.date = datetime.utcnow()
-        self.json = category
+        self.json = json
     def __repr__(self):
         return '<Post %r>' % self.title
 

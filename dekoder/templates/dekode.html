@@ -3,8 +3,15 @@
 {% block test_css %}
 <style type="text/css">
 .w {margin-bottom: -15%;}
-.wu {margin-bottom: -1%;}
-div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
+.wu {margin-bottom: -1.5%;}
+div.p { color: grey; margin-bottom: 1.3em; margin-top: 1.3em; width: 100%;}
+.autocomplete-content {
+    position: absolute;
+    display: inline-block;
+}
+.ttt {
+	position: relative;
+}
 </style>
 {% endblock %}
 
@@ -15,16 +22,14 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
     <div class="row">
 	      <!--Input text-->
 		  <div class="col s12 row">
-		      <div class="row">
 		        <div class="input-field col s12 left">
 		          {% for par in t['json'] %}
-			        <div class="row">
     				{% set oloop = loop %}
-			        {% for w, value in par.items() %}
-			        {% if w=="" %}
-			        <div class="p"></div>
-			        {% else %}
-			        <div class="wu row col s4 m3 l2">
+    				<div class="ttt row">
+			        {% for w in par %}
+			        {% if w!="" %}
+			        {% if loop.index>=1 and loop.index0%6==0 %} </div><div class="ttt row">{% endif %}
+			        <div class="wu col s2">
                       <div class="w input-field col s12">
 		                <input id="p{{ oloop.index }}w{{ loop.index }}" type="text" class="validate">
 		                <label id="p{{ oloop.index }}l{{ loop.index }}" for="p{{ oloop.index }}w{{ loop.index }}">{{ w }}</label>
@@ -32,11 +37,13 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 		            </div>
 		            {% endif %}
 		          	{% endfor %}
-		          	</div>
+		            </div>
+			        <div class="p"></div>
 		          {% endfor %}
-                  <a class="waves-effect waves-light btn" id="save" >Save</a>
 		        </div>
-		      </div>
+		  </div>
+          <div class="col s2 offset-s5">
+	          <a class="waves-effect waves-light btn" id="save" >Save</a>
 		  </div>
 	  </div>
 	</div>
@@ -57,25 +64,22 @@ div.p { color: grey; margin-bottom: 1em; margin-top: 1em;}
 		   $('select').material_select();
    		    {% for par in t['json'] %}
 		        {% set oloop = loop %}
-		        {% for w, value in par.items() %}
-			    {% if not w=="" and value!=[] %}
+		        {% for w in par %}
+			    {% if w!="" and par[w]["w"] %}
 			    	$('#p{{ oloop.index }}w{{ loop.index }}').autocomplete({
 					    data: {
-                            {% for v in value %}
-                                {% for dekoded_w in value[v] %}
-                                '{{ dekoded_w }}' : null, 
-                                {% endfor %}
-                            {% endfor %}        
-                            
+                            {% for sw in par[w]["w"] %}'{{ sw }}' : null,{% endfor %}
 					    },
-					    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+					    limit: 20,
 					    onAutocomplete: function(val) {
 					      // Callback function when value is autcompleted.
 					    },
-					    minLength: 0, // The minimum length of the input for the autocomplete to start. Default: 1.
+					    minLength: 0,
 					});
 			    {% endif %}
 				{% endfor %}
+
+
 			{% endfor %}
 		});
 </script>
