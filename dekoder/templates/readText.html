@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block test_css %}
+<style type="text/css">
+
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="row">
+  <div class="col s12">
+    <div class="card-panel">
+        <table class="responsive-table highlight bordered striped">
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>SourceLang</th>
+              <th>Dekode language</th>
+              <th>Text</th>
+              <th></th>
+          </tr>
+        </thead>
+
+        <tbody>
+            {% if t is not none %}   
+            {% for tekst in t %}
+             <tr>
+              <td>{{ tekst.name }}</td>
+              <td>{{ tekst.lang }}</td>
+              <td>  
+               <div class="input-field col s12">
+                  <select id="{{ tekst.name }}-sel" class="lang_select">
+                    {% if tekst.lang == "DE" %}
+                    <option value="" disabled selected>Choose your option</option>
+                        {% for l in langs %}
+                            {% if l != tekst.lang %}
+                                <option value="{{l}}">{{l}}</option>
+                            {% endif %}
+                        {% endfor %}
+                    {% else %}
+                            <option value="DE">DE</option>
+                    {% endif %}
+                  </select>
+                </div>
+              </td>
+              <td>
+                <div class="input-field col s12">
+                    {{ tekst.json }}
+                </div>
+              </td>
+              <td>
+                {% if tekst.lang == "DE" %}
+                    <a class="waves-effect waves-light btn" id="{{ tekst.name }}-btn" href="read/{{tekst.name}}">Read</a>    
+                {% else %}  
+                    <a class="waves-effect waves-light btn" id="{{ tekst.name }}-btn" href="read/{{tekst.name}}/DE">Read</a>
+                {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+            {% endif %}
+        </tbody>
+        </table>
+    </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block test_js %}
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+  
+  
+  {% if t is not none %}   
+    {% for tekst in t %}
+        $('#{{ tekst.name }}-sel').on('change', function() {
+        $('#{{ tekst.name }}-btn').attr("href","read/{{ tekst.name }}/"+this.value);
+        })
+  {% endfor %}
+  {% endif %}
+  
+</script>
+{% endblock %}
