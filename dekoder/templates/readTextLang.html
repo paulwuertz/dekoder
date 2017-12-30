@@ -2,7 +2,21 @@
 
 {% block test_css %}
 <style type="text/css">
-
+.fromW{
+  font-style: bold;
+  display: inline;
+  font-size: 13px;
+}
+.toW{
+  display: inline;
+  font-size: 13px;
+}
+.firstLetter{
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  display: inline;
+}
 </style>
 {% endblock %}
 
@@ -10,22 +24,24 @@
 <div class="row">
   <div class="col s12">
     <div class="card-panel">
-        <table class="responsive-table highlight bordered striped">
-        <thead>
-          <tr>
-              <th>Source language</th>
-              <th>Dekode language</th>
-          </tr>
-        </thead>
-
-        <tbody>
-             <tr>
-              <td>{{ org_t }}</td>
-              <td>{{ dekoded_t }}</td>
-            </tr>
-
-        </tbody>
-        </table>
+      <div>
+        <div>
+          {% for par in body %}
+            <p>
+            {% for w in par %}{{w}} {% endfor %}
+            </p>
+          {% endfor %}
+        </div>
+        <hr>
+        <div>
+          {% for letter, words in foot.items() %}
+          <span class="firstLetter">{{ letter }}</span>
+          {% for w, l in words.items() %}
+            <span class="fromW">{{w}}:</span><span class="toW">{% for t in l %}{{t}}{% endfor %}; </span>
+          {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
     </div>
     </div>
 </div>

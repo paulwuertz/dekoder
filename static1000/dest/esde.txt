@@ -698,7 +698,6 @@ déjeme
 día	Tag
 dólares	
 dónde	überall, wo
-e	und 
 economía	Hauswirtschaft, Weltwirtschaft, Schattenwirtschaft, Schattenwirtschaft, Wirtschaft
 económica	
 económicas	
@@ -712,17 +711,14 @@ edificio	Hochhaus, Bauwerk, Bau, Reaktorgebäude, Bürogebäude, Gebäude
 educación	Erziehung, Bildung, Grundbildung, Erwachsenenbildung, Sondererziehung, Sonderpädagogik, Sportunterricht, Sport, Vorschulerziehung, Ausbildung
 educativa	
 educativo	Bildungs-
-ee	
-efe	
 efecto	Nebeneffekt, Corioliskraft, Effekt, Treibhauseffekt, Rückwirkung, Nebeneffekt, Nebenwirkung, Wirkung
 efectos	Nebeneffekt, Corioliskraft, Effekt, Treibhauseffekt, Rückwirkung, Nebeneffekt, Nebenwirkung, Wirkung
-eh	
 ejecución	Ausführung, Schuldvollstreckung, Urteilsvollstreckung, Vollstreckung  eines Urteils, Durchführung, Exekution, Zwangsvollstreckung, Testamentsvollstreckung, Vollstreckung, Hinrichtung
 ejecutivo	Exekutive, Manager
 ejemplo	Beispiel
 ejercicio	Aufgabe, Militärübung, Übung
 ejército	Armee, himmlischen Heerscharen, Heer
-el	das Ereignis des Jahres, nächstes Jahr, nächstes Jahr, im Jahr darauf, im nächsten Jahr, nächstes Jahr, der abgesetzte König, der, der Heilige Geist, derselbe, alter Wein  in neuen Schläuchen, letztens, neulich, der erste Mai, zueinander, X Prozent
+el	der
 elaboración	Herstellung
 elecciones	Parlamentswahlen, Präsidentenwahl, Wahlen
 elección	Kommunalwahl, Wahl
@@ -1232,8 +1228,8 @@ justo	gerade, genau, gerecht
 juzgado	Handelsgericht, Gericht
 jóvenes	Jugendliche
 kilómetros	Kilometer
-la	das, der, sehr, viel, meistens, das nächste Mal, die kommende Woche, die, es, sie, A
-la primera	
+la	die
+la primera	die Erste
 labor	Arbeit
 laboral	Arbeits-, beruflich
 labores	
@@ -1392,7 +1388,7 @@ menudo	klein, Kleingeld
 mercado	Baumarkt, Rohstoffmarkt, Weihnachtsmarkt, Arbeitsmarkt, aufstrebender Markt, Schwellenmarkt, Wachstumsmarkt, Binnenmarkt, Arbeitsmarkt, Markt, Geldmarkt, Schwarzmarkt, Wochenmarkt
 mercados	Baumarkt, Rohstoffmarkt, Weihnachtsmarkt, Arbeitsmarkt, aufstrebender Markt, Schwellenmarkt, Wachstumsmarkt, Binnenmarkt, Arbeitsmarkt, Markt, Geldmarkt, Schwarzmarkt, Wochenmarkt
 mes	ich habe Lust, etw. zu tun, es ekelt mich, gefällt mir, ich mag, mir gefällt ... besser, ich brauche, Sommermonat, Monat   in Bayern, Österreich]
-mesa	Campingtisch, Esstisch, Wohnzimmertisch, Tischtennisplatte, Rollwagen, Büfett, Tisch
+mesa	Tisch
 meses	
 meta	Ziel
 metas	Ziel
@@ -1405,7 +1401,7 @@ miembros	Glied, Glied, Körperteil, Mitglied, Extremität, Bauteil
 mientras	während, wohingegen, in der Zwischenzeit, inzwischen, währenddessen, solange
 mierda	Dreck, Scheiße
 miguel	
-mil	Milliarde  , tausend
+mil	Tausend
 miles	
 militar	Militär-, militärisch, Militär, Soldat
 militares	
@@ -1443,7 +1439,7 @@ motivo	Grund, Hauptgrund, Anlass
 motivos	Grund, Hauptgrund, Anlass
 motor	Anlasser, Suchmaschine, Verbrennungsmotor, Viertaktmotor, Zweitaktmotor, Dieselmotor, Elektromotor, Außenbordmotor, Motor
 movimiento	Bewegung, Umweltschutzbewegung, Wellenbewegung, Friedensbewegung, Planetenbewegung, Satz
-mucha	viele Leute
+mucha	viele
 muchachos	Junge
 muchas	viele Leute, oft
 mucho	viel weniger, viel mehr, sehr, viel
@@ -1498,7 +1494,6 @@ negocio	Angelegenheit, Beschäftigung, Betrieb, Geschäft, Laden
 negocios	Geschäfte, Angelegenheit, Beschäftigung, Betrieb, Geschäft, Laden
 negro	kohlrabenschwarz, pechschwarz, schwarz, dunkelhäutig
 neiva	
-new	
 nexolocal	
 ni	weder ... noch, auch nicht, auf keinen Fall, einigermaßen, keine Ahnung, geschweige denn ..., nicht mehr und nicht weniger, keine Ahnung, keinen blassen Schimmer, nicht den blassesten Schimmer, nicht einmal, nicht einmal
 ninguna	
@@ -1506,9 +1501,9 @@ ninguno	keine, keiner, kein
 ningún	kein
 nivel	Wasserwaage, Meeresspiegel, Lebensstandard, Ebene, Niveau, Stufe
 niveles	
-niña	Mädchen, Mädel, Pupille
-niñas	Mädchen, Mädchen, Mädel, Pupille
-niño	Säugling, Jesuskind, Kind, Wunderkind, Junge
+niña	Mädchen
+niñas	Mädchen
+niño	Kind, Junge
 niños	Kinder, Säugling, Jesuskind, Kind, Wunderkind, Junge
 no	Einzel-, etw. verfehlen, sich seiner Sache sicher sein, anders als, verfehlen, umweltfreundlich, keinen Handschlag tun, ergebnislos bleiben, nicht dürfen, den Mund nicht aufmachen, rede keinen Blödsinn, gönnen, halb so schlimm, nicht ganz bei Trost sein, nicht recht bei Trost sein, keine rechte Lust haben, unästhetisch, unformatiert, Nichtraucherin, Nichtraucher  , erst nächste Woche, jdm. nicht das Wasser reichen können, ... habe ich nicht mehr, in Kürze, höchstens, ungeboren, Ungeborenes, nein, nicht, etw. versäumen, nichtsdestotrotz, trotzdem, nicht aufhören etw. zu tun, bei etw. durchfallen, ungebeten, kein Auge zu bekommen, es nicht fassen können, einen Rochus auf jdn. haben, jdm. spinnefeind sein, jdn. auf den Tod nicht ausstehen können, jdn. nicht ausstehen können, jdn. nicht riechen können, etw. weglassen, ungebeten, nicht nur, nicht nur, dass ..., ins Wasser fallen, kein Blatt vor den Mund nehmen, reden, wie einem der Schnabel gewachsen ist, nicht auf den Kopf gefallen sein, an Realitätsverlust leiden
 no. n	

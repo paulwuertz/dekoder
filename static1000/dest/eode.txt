@@ -1,4 +1,3 @@
-Abatejo	
 abatejo	Abtei
 abatosuperas	
 abdikis	abdanken, abtreten, zurücktreten
@@ -8,19 +7,14 @@ Abraham
 Abruzo	
 absoluta	absolut, unbedingt
 absolute	
-Abu	
 abunda	ausgiebig, reichlich, übermäßig
 abundas	
 abunde	im Überfluss, reichlich
-aby	
-ac	
 Academy	
 acido	Säure
 Acrocephalus	
 aĉeti	kaufen
 aĉetis	kaufen
-Adam	
-Adams	
 adaptita	
 adaptitaj	
 adeptoj	Adept, Anhänger, Jünger
@@ -48,9 +42,6 @@ aera
 aero	Luft
 aeron	Luft
 afero	Angelegenheit, Ding, Geschäft, Sache
-aferoj	Angelegenheit, Ding, Geschäft, Sache
-aferojn	Angelegenheit, Ding, Geschäft, Sache
-aferon	Angelegenheit, Ding, Geschäft, Sache
 Afganio	Afghanistan
 afrika	
 afrikaj	
@@ -59,9 +50,6 @@ Afriko	Afrika
 agadas	
 agadis	
 agado	Handlungsweise, Handlung
-agadoj	Handlungsweise, Handlung
-agadonscipovis	
-agas	handeln, tun, tätig sein, wirken
 agi	handeln, tun, tätig sein, wirken
 agis	handeln, tun, tätig sein, wirken
 aglo	Adler
@@ -71,28 +59,14 @@ agnoskata
 agnoskis	
 agnoskita	anerkannt
 ago	Handlung, Tat
-agoj	Handlung, Tat
-agojn	Handlung, Tat
-agon	Handlung, Tat
 agordo	
-agrikultura	
-agrikulturaj	
+agrikultura		
 agrikulturo	Landwirtschaft
 Agrikulturouzanto	
-aĝa	
-aĝaj	
-aĝas	alt sein
 aĝis	alt sein
 aĝo	Alter
-Air	
-Aires	
-Airlines	
-aj	
-ajn	
 ajna	beliebig
 aĵo	Ding, Gegenstand, Sache
-aĵoj	Ding, Gegenstand, Sache
-aĵojn	Ding, Gegenstand, Sache
 akademiano	
 akademio	Akademie, Hochschule, Universität
 akceptas	akzeptieren, empfangen
@@ -103,14 +77,11 @@ akceptita
 akceptitaj	
 akcepto	Annahme, Aufnahme, Zusage, Übernahme
 akcidento	Unfall
-akiras	anschaffen, erlangen, erwerben
 akiri	anschaffen, erlangen, erwerben
-akiris	anschaffen, erlangen, erwerben
 akiro	Beute, Errungenschaft, Erwerb
 akompanata	
 akompanis	begleiten
 akordo	Übereinstimmung
-akraj	scharf
 akra	scharf
 akre	
 aksiomo	Axiom
@@ -121,12 +92,10 @@ aktivaj
 aktivas	
 aktive	
 aktiveco	Aktivität
-aktivecojWikimedia	
 aktivis	
 aktivulo	
 aktivuloj	
 akto	Akte, Akt
-aktoj	Akte, Akt
 aktorino	
 aktoro	Darsteller, Schauspieler
 Aktoroj	
@@ -134,41 +103,28 @@ aktoroj	Darsteller, Schauspieler
 aktuala	aktuell, zeitgemäß, zeitnah
 aktualaj	aktuell, zeitgemäß, zeitnah
 aktuale	
-akuzis	anklagen, jdn. ) beschuldigen, jdn. wegen etw.  anklagen, verklagen
+akuzis	anklagen, jdn. beschuldigen, jdn. wegen etw. anklagen, verklagen
 akvaj	Wasser-
 akva	Wasser-
 Akvisto	
-akvofaloj	Wasserfall
 akvofalo	Wasserfall
-akvoj	Wasser
-akvon	Wasser
 akvo	Wasser
-Alain	
-Alan	
 Alasko	Alaska
 Alaŭdo	
-Alba	
 Albanio	Albanien
 Albrecht	
 albumo	Album
-albumoj	Album
-albumon	Album
 aldona	
 aldonaj	
-aldonas	ergänzen, hinzufügen
 aldone	
-Aldone	
 aldoni	ergänzen, hinzufügen
 aldoniĝas	
 aldoniĝis	
 aldonis	ergänzen, hinzufügen
-aldonitaj	zuzüglich
 aldonita	zuzüglich
 aldono	Anhang, Beilage, Zugabe, Zusatz, Zuschlag, Zuschuss
 aldonu		
 alfabeto	Alphabet
-alfabetoj	Alphabet
-alfabeton	Alphabet
 alfluanto	
 alfluas	
 alfluo	Flut, Zufluss
@@ -178,11 +134,6 @@ algoritmo
 Alĝerio	Algerien
 Alĝero	Algier
 alia	andere
-alia	andere
-aliaj	andere
-aliaj	andere
-aliajn	andere
-alian	andere
 aliancanoj	
 alianco	
 Alianco	
@@ -192,9 +143,7 @@ alie	sonst
 Aliflanke	
 aliflanke	anderseits
 aligita	
-aliĝas	eintreten
 aliĝi	eintreten
-aliĝis	eintreten
 aliĝo	Beitritt
 alilingvaj	
 aliloke	anderswo
@@ -206,22 +155,12 @@ aliron	Zugang, Zutritt
 aliro	Zugang, Zutritt
 alkoholo	Alkohol
 alkonstruiĝis	
-All	
-Állami	
-Allan	
-Allen	
 allogas	
-Alma	
-Almanako	
 almenaŭ	mindestens, wenigstens
 Alpoj	
 alportas	bringen, holen
-alportis	bringen, holen
 alprenis	
 alta	erhaben, groß, Hoch-, hoch
-altaj	erhaben, groß, Hoch-, hoch
-altajn	erhaben, groß, Hoch-, hoch
-altan	erhaben, groß, Hoch-, hoch
 altaro	Altar
 altas	
 altebenaĵo	
@@ -299,25 +238,6 @@ anarkiistoj
 Anatolio	
 Anatomio	
 anatomio	Anatomie
-And	
-Andalucía	
-andaluza	
-Andaluzio	
-Anderson	
-Andoj	
-Andoro	Andorra
-András	
-Andrea	
-Andreas	
-Andrej	
-Andreo	
-Andrés	
-Andrew	
-Andromedo	
-Andrzej	
-Angeles	
-Angelo	
-angla	englisch
 angla	englisch
 Anglaj	
 anglaj	englisch
@@ -337,66 +257,35 @@ Anglujo	England
 Angolo	Angola
 angula	
 angulo	Ecke, Winkel
-anguloj	Ecke, Winkel
 anĝeloj	Engel
 aniĝis	
 Animal	
 animaloj	
 animo	Seele
 ankaŭ	auch
-ankaŭ	auch
-Ankoraŭ	
-ankoraŭ	noch nicht, noch
-Ann	
-Anna	
-Anne	
-anoj	Mitglied
-anojn	Mitglied
+ankoraŭ	noch nicht, noch	
 ano	Mitglied
-anoncas	etw.  anmelden, etw.  anzeigen, etw.  ankündigen, verkünden, inserieren, veröffentlichen
-anoncis	etw.  anmelden, etw.  anzeigen, etw.  ankündigen, verkünden, inserieren, veröffentlichen
+anonci	etw.  anmelden, etw.  anzeigen, etw.  ankündigen, verkünden, inserieren, veröffentlichen
 anoncita	beworben
 anonco	
 Anstataŭ	
 anstataŭ	anstatt, anstelle, an Stelle, statt
-anstataŭas	ersetzen
-anstataŭe	
 anstataŭi	ersetzen
-anstataŭigi	
-anstataŭigis	
-anstataŭigita	
-anstataŭis	ersetzen
-Antal	
-Antarkto	
-Antaŭa	
-antaŭaj	vorhergehend, vorherig
-antaŭan	vorhergehend, vorherig
 antaŭa	vorhergehend, vorherig
 Antaŭe	
 antaŭe	im Voraus, voraus, vorher
-antaŭen	im Voraus, voraus, vorher
+antaŭen	gerade aus
 antaŭparolo	
 Antaŭpomerio	
 antaŭulo	
-antaŭuloj	
 antaŭ	vor kurzem, bevor, davor, vor, vor allem
-Anthony	
 Antikva	
 antikva	antik
-antikvaj	antik
-antikvaj	antik
 antikvo	
 Antiloj	
 Antioĥio	
 Antoine	
-antologio	
-Antologio	
-Antonín	
-Antonio	
-Antônio	
-Antverpeno	
-any	
-Aosta	
+antologio			
 aparato	Apparat
 aparatojvidita	
 aparta	
@@ -408,31 +297,25 @@ Aparte
 aparte	besonders
 apartenanta	
 apartenantaj	
-apartenas	gehören
-apartenas	gehören
-apartenis	gehören
+aparteni	gehören
 apartenu	
 apartigilo	
 apartigilon	
 apenaŭ	kaum
 Apencelo	
 aperanta	
-aperas	auftauchen, erscheinen
 aperi	auftauchen, erscheinen
 aperigis	
 aperinta	
 aperintaj	
 Aperis	
-aperis	auftauchen, erscheinen
-apero	
-aperos	auftauchen, erscheinen
+aperi	auftauchen, erscheinen
 aperu	
 aplikas	anwenden
 aplikata	
 aplikis	anwenden
 apliko	
-apogas	etw.  anlehnen
-apogis	etw.  anlehnen
+apogi	etw.  anlehnen
 apogo	
 apogon	
 Apollo	
@@ -446,14 +329,6 @@ aprobita
 apuda	
 apudaj	
 apud	bei, neben
-araba	
-Araba	
-arabaj	
-Arabaj	
-arabe	
-Arabio	
-araboj	
-Aragono	
 aranĝas	
 aranĝi	
 aranĝis	
@@ -464,16 +339,9 @@ aranĝoj
 Araŭo	
 arbara	
 arbaraj	
-Arbaro	
-arbarojn	Wald
-arbaroj	Wald
 arbaro	Wald
 Arbitracio	
 arbo	Baum
-arbo	Baum
-Arboj	
-arboj	Baum
-arbojn	Baum
 arbustaro	
 arbustaroj	
 arbustoj	Strauch
@@ -520,11 +388,6 @@ armene
 Armenio	Armenien
 armenoj	
 armeo	Armee
-armeo	Armee
-armeoj	Armee
-armeon	Armee
-armiloj	Kampfmittel, Waffe
-armilojn	Kampfmittel, Waffe
 armilo	Kampfmittel, Waffe
 armita	Waffenkiebitz
 arms	
@@ -532,8 +395,6 @@ Arno
 Arnold	
 Aro	
 aro	Ansammlung, Gruppe, Haufen, Herde, Menge, Schar, Schwarm
-aroj	Ansammlung, Gruppe, Haufen, Herde, Menge, Schar, Schwarm
-aron	Ansammlung, Gruppe, Haufen, Herde, Menge, Schar, Schwarm
 arondismento	
 arondismentoj	
 Árpád	
@@ -550,25 +411,9 @@ article
 articles	
 Artikolo	
 artikolo	Artikel, Aufsatz, Beitrag, Zeitungsartikel
-Artikoloj	
-artikoloj	Artikel, Aufsatz, Beitrag, Zeitungsartikel
-artikolojn	Artikel, Aufsatz, Beitrag, Zeitungsartikel
-artikolon	Artikel, Aufsatz, Beitrag, Zeitungsartikel
-Artistoj	
-artistoj	Künstler
 artisto	Künstler
-Arto	
-artoj	Kunst
-artoj	Kunst
 arto	Kunst
-arton	Kunst
-Arturo	
-asembleo	
-Asembleo	
-asertas	behaupten
-asertis	behaupten
-aserto	
-Asia	
+aserti	behaupten
 asistanto	
 asmeza	
 asocio	
@@ -6448,14 +6293,10 @@ partio	Partei
 partizanoj	
 Parto	
 parto	Abschnitt, Anteil, Teil
-partoj	Abschnitt, Anteil, Teil
-partojn	Abschnitt, Anteil, Teil
-parton	Abschnitt, Anteil, Teil
 partoprenantoj	
 partoprenas	teilnehmen an, mitmachen
 partoprenis	teilnehmen an, mitmachen
 partopreno	
-Party	
 paruliedoj	
 parulio	
 paruo	
@@ -6480,7 +6321,6 @@ pastro	Pastor
 paŝo	
 paŝoj	
 patriarko	
-Patrick	
 patrina	
 Patrino	
 patrino	Mutter
@@ -6587,10 +6427,6 @@ pezaj	schwer
 pezas	
 peza	schwer
 pezo	Gewicht
-pezon	Gewicht
-pĝ	
-Ph	
-Philadelphia	
 Philip	
 Philipp	
 Philippe	
@@ -6607,8 +6443,6 @@ pilko	Ball
 piloto	Pilot
 pino	Kiefer
 pinta	
-pintoj	Spitze
-pinton	Spitze
 pinto	Spitze
 Pinus	
 Pio	
@@ -6635,15 +6469,10 @@ planita
 planko	Boden, Fußboden
 planlingvo	
 planlingvoj	
-Planlingvoj	
-planojn	Plan
-planoj	Plan
-planon	Plan
 plano	Plan
 planta	pflanzlich
 Plantoj	
 plantojn	Pflanze
-plantoj	Pflanze
 planto	Pflanze
 plasto	Plastik
 plata	
@@ -6652,7 +6481,6 @@ plato
 platoj	
 Platono	
 pleja	
-plej	am meisten
 plej	am meisten
 pleje	
 plejmulto	
@@ -6666,8 +6494,6 @@ plenan	voll
 plena	voll
 plene	
 plenkreskulo	Erwachsener
-Plenkreskuloj	
-plenkreskuloj	Erwachsener
 plenumas	
 plenumi	
 plenumis	
@@ -6753,8 +6579,6 @@ politikistino
 politikisto	
 politikistoj	
 Politikistoj	
-politikon	Politik
-politiko	Politik
 politiko	Politik
 Pollando	Polen
 Polo	
@@ -6802,9 +6626,7 @@ portugala	portugiesisch
 portugale	
 Portugalio	Portugal
 posedaĵo	Eigentum
-posedaĵoj	Eigentum
 posedanto	Besitzer
-posedantoj	Besitzer
 posedaslongo	
 posedis	besitzen
 posedo	
@@ -6936,7 +6758,6 @@ prezidenta
 Prezidento	
 prezidento	Präsident, Staatspräsident
 prezidis	
-prezoj	Preis
 prezo	Preis
 prilaboris	bearbeiten
 primo	
@@ -6945,9 +6766,6 @@ Prince
 Princeton	
 princino	Prinzessin
 principe	
-principojn	Prinzip
-principoj	Prinzip
-principon	Prinzip
 principo	Prinzip
 princlando	
 Princo	
@@ -6955,9 +6773,7 @@ princoj	Prinz
 princo	Prinz
 printempe	
 printempo	Frühjahr, Frühling
-priskribas	beschreiben
 priskribi	beschreiben
-priskribis	beschreiben
 priskribita	
 priskribitaj	
 priskribo	
@@ -7001,15 +6817,11 @@ produktita
 produktitaj	
 produkto	
 produktoj	
-produktoro	
-produto	
-prof	
-Prof	
+produktoro		
 profesia	
 profesiaj	
 profesie	
 profesio	Beruf
-profesioj	Beruf
 Profesoro	
 profesoroj	
 profesoro	Profesor
@@ -7017,8 +6829,6 @@ profeto
 profitas	
 profitis	
 profito	
-profundaj	Tiefsee, tief
-profundan	Tiefsee, tief
 profunda	Tiefsee, tief
 profunde	
 profundeco	
@@ -7039,7 +6849,6 @@ projekton
 projekto	Projekt
 proklamis	
 proklamita	
-proksimaj	nah, nahe, nahegelegen, bevorstehend, künftig, kommend
 proksima	nah, nahe, nahegelegen, bevorstehend, künftig, kommend
 Proksime	
 proksimeco	Nähe
@@ -7056,8 +6865,6 @@ proponas	anbieten, vorschlagen
 proponi	anbieten, vorschlagen
 proponitaj	vorgeschlagen
 proponita	vorgeschlagen
-proponoj	Vorschlag
-proponon	Vorschlag
 propono	Vorschlag
 proporcia	Proporzwahl, Verhältniswahl
 proporcie	
@@ -7066,22 +6873,18 @@ propra	eigen
 propraj	eigen
 proprajn	eigen
 propraĵo	Eigentum
-propraĵoj	Eigentum
 propran	eigen
 prosperis	
 proteinoj	Protein
 protektado	
-protektas	beschützen
 protektata	
 protekti	beschützen
 protektita	
-protekton	Schutz
 protekto	Schutz
 protestanta	
 protestantaj	
 protestantoj	
 protestis	
-protestoj	Protest
 protesto	Protest
 protokolo	
 provas	probieren, versuchen
@@ -7095,8 +6898,6 @@ provincoj
 provincoj	
 provincon	
 provi	probieren, versuchen
-provis	probieren, versuchen
-provizas	anbieten, beliefern
 provizi	anbieten, beliefern
 provizora	vorläufig
 provizore	bis auf weiteres
@@ -7104,22 +6905,16 @@ provoj	Versuch
 provo	Versuch
 prozo	
 prusa	
-Prusio	
-pruvas	beweisen
 pruvi	beweisen
-pruvis	beweisen
 pruvita	
 pruvo	Beweis
 pruvoj	Beweis
-przywróć	
 pseŭdonimo	
 Psikologio	
 psikologio	Psychologie
 publicisto	
 publikaj	öffentlich
 publikaĵoj	
-publikan	öffentlich
-publika	öffentlich
 publika	öffentlich
 publike	
 publikigas	
@@ -7131,7 +6926,6 @@ publikigo
 publikiĝis	
 publikis	
 publikita	
-publikon	Publikum, Zuhörerschaft, Öffentlichkeit
 publiko	Publikum, Zuhörerschaft, Öffentlichkeit
 Publishing	
 puĉo	
@@ -7146,17 +6940,10 @@ punkton
 puno	Strafe
 pura	rein, sauber
 pure	
-que	
-Queen	
-Quercus	
-qui	
 racio	
 radiado	
 radikala	
-radikojn	Wurzel
-radikoj	Wurzel
 radiko	Wurzel
-radioj	Radio, Radius
 radio	Radio, Radius
 radiuso	Radius
 rado	Rad
@@ -7169,17 +6956,12 @@ Rajtoj
 rajtojn	
 rajton	
 raketo	Rakete
-Rákóczi	
-rakontas	erzählen
-rakontis	erzählen
+rakonti	erzählen
 rakontodaŭris	
 rakontoj	
 Rakontoj	
 rakontojn	
-rakonton	
-Ralph	
-Ramón	
-Rana	
+rakonton		
 rande	
 rando	
 randoj	
@@ -7192,9 +6974,7 @@ rapideco	Geschwindigkeit, Tempo
 rapide	schnell
 rapido	
 rapidon	
-raportas	berichten
-raportis	berichten
-Raporto	
+raporti	berichten
 raporto	Bericht
 raportoj	Bericht
 rara	
@@ -7203,11 +6983,6 @@ rare
 rarr	
 raso	
 rasoj	
-Rathaus	
-Ray	
-Raymond	
-re	
-Re	
 reago	Reaktion
 reakcio	Reaktion
 Real	
@@ -7224,8 +6999,6 @@ recenzoj
 reciproka	gegenseitig
 reciproke	
 Records	
-red	
-Red	
 redaktado	
 redakti	etw.  bearbeiten
 redaktis	etw.  bearbeiten
@@ -7242,7 +7015,6 @@ reeldono
 reen	abermals, erneut, noch einmal, nochmals, wieder, wiederholt, wiederum
 ref	
 referencas	
-referencoj	Quellenangabe, Referenz
 referenco	Quellenangabe, Referenz
 referendumo	
 refondis	
@@ -7294,13 +7066,8 @@ regula	regelmäßig
 regula	regelmäßig
 regularo	Regelwerk, Regeln
 regule	regelmäßig
-regulojn	Regel
-reguloj	Regel
-regulon	Regel
 regulo	Regel
 reĝado	
-reĝaj	koniglich
-reĝan	koniglich
 reĝa	koniglich
 reĝimo	
 Reĝino	
@@ -7323,8 +7090,6 @@ rekonis	erkennen
 rekonstruita	
 rekonstruo	
 rekta	gerade, direkte Rede
-rektaj	gerade, direkte Rede
-rektan	gerade, direkte Rede
 rekte	geradeaus
 rektoro	
 relativa	
@@ -7346,8 +7111,6 @@ Renesanco
 renkontas	jdn. treffen
 renkontiĝas	
 renkontiĝis	
-renkontiĝoj	Treffen
-renkontiĝo	Treffen
 renkontiĝo	Treffen
 renkontis	jdn. treffen
 Rennes	
@@ -7357,7 +7120,6 @@ renovigo
 renoviĝis	
 Report	
 reprezentanto	Abgeordneter
-reprezentantoj	Abgeordneter
 reprezentas	
 reprezenti	
 reprezentis	
@@ -7378,25 +7140,15 @@ respondas	antworten
 respondecas	
 respondeco	
 respondi	antworten
-respondis	antworten
 respondo	Antwort
-respondon	Antwort
 respublika	
-respublikoj	Republik
-respublikon	Republik
-respubliko	Republik
 respubliko	Republik
 restadis	verweilen
 restado	Aufenthalt
-restaĵojn	Rest
-restaĵoj	Rest
 restaĵo	Rest
 restarigi	
-restas	bleiben
 resti	bleiben
-restis	bleiben
 resto	
-restoracioj	Restaurant
 restoracio	Restaurant
 restos	bleiben
 restu	
@@ -7404,33 +7156,16 @@ resumo	Zusammenfassung
 reta	
 reta	
 rete	
-retejo	
 retejo	Internetseite
 retiriĝis	
-retoj	Netz
 reto	Netz
-reton	Netz
 retpaĝaro	
 retpaĝo	
-Retpaĝo	
-return	
-rev	
-revenas	zurückkommen
-reveninte	
-revenis	zurückkommen
 reveni	zurückkommen
 reveno	
-revert	
-Review	
 reviziita	
-ReVo	
 revolucia	
-revolucion	Revolution
 revolucio	Revolution
-revolucio	Revolution
-revuoj	Zeitschrift
-revuon	Zeitschrift
-revuo	Zeitschrift
 revuo	Zeitschrift
 rezervejo	
 rezidejo	
@@ -7444,20 +7179,9 @@ rezultigas
 rezultigis	
 rezultis	
 rezulto	
-rezultoj	
-rezultojn	
-rezulton	
-rgb	
-Rhein-Lahn	
 ribelis	
 ribelo	
-Ribelo	
-ribeloj	
-ribelon	
-Ricardo	
-ricevas	bekommen, empfangen, erhalten
 ricevi	bekommen, empfangen, erhalten
-ricevis	bekommen, empfangen, erhalten
 ricevita	empfangen
 Richter	
 riĉaj	reich
@@ -7482,11 +7206,7 @@ rilatas	sich  auf eine Quelle beziehen, sich  beziehen
 rilate	bezüglich
 rilate	bezüglich
 rilati	sich  auf eine Quelle beziehen, sich  beziehen
-rilatis	sich  auf eine Quelle beziehen, sich  beziehen
 rilato	Beziehung, Bezug
-rilatoj	Beziehung, Bezug
-rilatojn	Beziehung, Bezug
-rilaton	Beziehung, Bezug
 rimarkas	vermissen, wahrnehmen
 rimarkinda	
 rimarkindaj	
@@ -7516,10 +7236,6 @@ rivera
 rivera	
 rivereto	Bach
 rivero	Fluss
-rivero	Fluss
-riveroj	Fluss
-riveroj	Fluss
-riveron	Fluss
 rizo	Reis
 ro	
 Roberto	
@@ -7532,9 +7248,7 @@ Rodano
 Rodríguez	
 Roger	
 rojo	Bach
-rojoj	Bach
 roka	Halsband-Brachschwalbe
-rokaj	Halsband-Brachschwalbe
 roko	
 rokoj	
 Roland	
@@ -7555,47 +7269,22 @@ romanisto	Romanist
 Romano	
 Romanoj	
 romanojn	Roman
-romanoj	Roman
-romanoj	Roman
-romanon	Roman
 romano	Roman
 romantika	romantisch
 romia	
 romiaj	
-Romiaj	
 romianoj	
-Romio	
 romkatolika	
 Romkatolika	
 Romo	Rom
 rompi	brechen, durchkreuzen, unterbrechen, zerbrechen
-rompis	brechen, durchkreuzen, unterbrechen, zerbrechen
-Ronald	
-Rondo	
-rondoj	Kreis
 rondo	Kreis
-Roosevelt	
-Rosa	
-Rose	
-Roterdamo	
-round	
-Rousseau	
-row	
-Roy	
-Royal	
-ru	
 Ruando	Ruanda
 rubriko	
 Rudolfo	
 Rue	
-ruĝa	Feuerliest, Gabelweihe, Königsweihe, Roter Milan, Rotmilan, rot
-ruĝaj	Feuerliest, Gabelweihe, Königsweihe, Roter Milan, Rotmilan, rot
-ruĝajn	Feuerliest, Gabelweihe, Königsweihe, Roter Milan, Rotmilan, rot
-ruĝan	Feuerliest, Gabelweihe, Königsweihe, Roter Milan, Rotmilan, rot
-ruĝecaj	Rötelreiher
-ruĝeca	Rötelreiher
+ruĝa	rot
 ruĝo	
-Ruhr	
 ruinoj	Ruine
 ruino	Ruine
 rules	
@@ -7606,10 +7295,7 @@ rumane
 Rumanio	Rumänien
 rumanuja	
 Rumanujaj	
-Rumex	
 Rusa	
-rusaj	russisch
-rusan	russisch
 rusa	russisch
 ruse	
 rusia	
@@ -7663,9 +7349,6 @@ sango	Blut
 sangon	Blut
 Sankt	
 sankta	heilig
-sankta	heilig
-sanktaj	heilig
-sanktaj	heilig
 sanktejo	
 Sankt-Galo	
 Sankt-Peterburgo	
@@ -7674,8 +7357,6 @@ sanktuloj
 sanktuloj	
 San-Marino	San Marino
 sano	Gesundheit
-sano	Gesundheit
-San-Paŭlo	
 Sant	
 Santiago	
 Santo	
@@ -7699,28 +7380,15 @@ scenaro
 scenaro	
 scenejo	
 sceno	
-scenoj	
-Schengen	
-Schiller	
-Schlegel	
-Schleswig-Flensburg	
-Schloss	
-School	
-Schubert	
-Schumann	
+scenoj		
 scias	von etw.  wissen, wissen
 sciata	
-Scienca	
-sciencajn	wissenschaftlich
-sciencaj	wissenschaftlich
-sciencan	wissenschaftlich
 scienca	wissenschaftlich
 science	
 Science	
 sciencfikcia	
 sciencisto	
 sciencistoj	
-Sciencistoj	
 Scienco	
 Sciencoj	
 sciencoj	Wissenschaft
@@ -7728,15 +7396,12 @@ scienco	Wissenschaft
 sciigis	etw.  ankündigen, etw.  mitteilen
 sciis	von etw.  wissen, wissen
 scii	von etw.  wissen, wissen
-scion	Wissen, Kenntnis
 scio	Wissen, Kenntnis
 scope	
 Scott	
 Secuiesc	
 sed	aber, sondern
-See	
-se	falls, sofern nicht, wenn nicht, wenn
-Segeberg	
+se	falls, sofern, wenn, wenn
 seĝoj	Sitz, Stuhl
 seĝo	Sitz, Stuhl
 Sejŝeloj	
@@ -7752,9 +7417,7 @@ sekretario
 Sekretario	
 sekrete	verstohlen
 seksa	Geschlechtsdimorphismus, Sexualdimorphismus
-seksaj	Geschlechtsdimorphismus, Sexualdimorphismus
 sekso	Geschlecht, Sex
-seksoj	Geschlecht, Sex
 sektoro	
 sektoroj	
 sekundoj	Sekunde
@@ -7779,9 +7442,6 @@ Sekvis
 sekvis	folgen, verfolgen
 sekvo	Folge
 sekvoj	Folge
-selbst	
-self	
-semajnojn	Woche
 semajnoj	Woche
 semajno	Woche
 semajno	Woche
@@ -7790,12 +7450,9 @@ semojn	Samen
 semoj	Samen
 Sen	
 Senato	
-sencon	Sinn
 senco	Sinn
 senĉese	
 sendas	senden
-sendependaj	selbstständig, unabhängig
-sendependan	selbstständig, unabhängig
 sendependa	selbstständig, unabhängig
 sendepende	
 sendependeco	
@@ -7822,16 +7479,11 @@ senpintigita
 Senpintigita	
 senrajtaj	
 sensukcese	
-sentas	fühlen, sich  fühlen
-sentis	fühlen, sich  fühlen
+senti	fühlen, sich  fühlen
 sento	Gefühl
-sentoj	Gefühl
-senton	Gefühl
 sepa	
 separata	
 sep	sieben
-September	
-Septembro	
 septembro	September
 serba	
 serbe	
@@ -7846,8 +7498,6 @@ Serena
 Sergej	
 Sergio	
 Serio	
-serioj	Reihe, Serie
-serion	Reihe, Serie
 serio	Reihe, Serie
 serioza	ernst, ernsthaft
 serioze	
@@ -7880,15 +7530,6 @@ sezono	Jahreszeit, Saison
 sezonoj	Jahreszeit, Saison
 Sfântu	
 sfero	
-SG	
-sh	
-Sh	
-Shakespeare	
-Shaw	
-shift	
-show	
-Si	
-sia	
 sia	
 siaj	
 siajn	ihrer
@@ -7899,37 +7540,24 @@ siavice
 Siberio	Sibirien
 Sibiu	
 Sicilio	
-sidas	sitzen
+sidi	sitzen
 sidejo	
 sidejon	
-Siegfried	
 sieĝo	
-Siera-Leono	
-Sigismondo	
 signalo	
 signas	
 signifa	bedeutsam, bedeutungsvoll
-signifaj	bedeutsam, bedeutungsvoll
-signifanta	
-signifas	bedeuten
 signife	
 signifi	bedeuten
 signifis	bedeuten
 signifo	Bedeutung
-signifoj	Bedeutung
-signifojn	Bedeutung
-signifon	Bedeutung
-signojn	Zeichen
-signoj	Zeichen
 signo	Zeichen
-silaboj	Silbe
 silabo	Silbe
 Silezia	
 Silezio	
 Silva	
 Silviedoj	
 silvio	
-SIMA	
 simbola	
 simbolas	
 simbolo	
@@ -7950,43 +7578,27 @@ similas	ähneln
 simile	
 Simile	
 simileco	Ähnlichkeit
-Simme-Valo	
 simpla	einfach, simpel
-simplaj	einfach, simpel
-simplan	einfach, simpel
 simple	einfach
 simptomoj	
 simulado	
 sin	
 sinagogo	
 Singapuro	Singapur
-Sinjorino	
-Sinjoro	
-sinjoro	Herr ..., Herr
-s-ino	
-S-ino	
+sinjoro	Herr
 sinonimo	
 sinsekvaj	
 sinsekve	
 sinsekvo	
 sintakso	
 sinteno	
-Sir	
 Sirio	Syrien
 si	sich
 sistema	
-Sistema	
-sisteme	
-Sistemo	
 sistemo	Gleichungssystem, System
-sistemoj	Gleichungssystem, System
-sistemojn	Gleichungssystem, System
-sistemon	Gleichungssystem, System
 site	
 sito	
 situa	
-situacioj	Situation
-situacion	Situation
 situacio	Situation
 situanta	
 situantaj	
@@ -8002,20 +7614,17 @@ skemo
 skizo	
 sklaveco	Sklaverei
 sklavoj	Sklave
-skolo	
-Skolo	
+skolo		
 skoloj	
 skota	
 skota	
 Skotlando	
 skribado	Geschreibe, Schreiben, Schreiberei
 skribaĵo	Geschriebenes, Niederschrift, Schreiben, Schriftstück
-skribaĵoj	Geschriebenes, Niederschrift, Schreiben, Schriftstück
 skribas	an jdn. wegen etw.  schreiben, schreiben
 skribata	
 skribe	
 skribi	an jdn. wegen etw.  schreiben, schreiben
-skribis	an jdn. wegen etw.  schreiben, schreiben
 skribita	
 skribitaj	
 skribmaniero	
@@ -8025,10 +7634,6 @@ skribsistemo
 skulptaĵo	
 skulptaĵoj	
 skulptisto	
-slava	
-slavaj	
-slave	
-Slavik	
 slavoj	
 slovaka	
 Slovaka	
@@ -8037,21 +7642,11 @@ slovake
 Slovakio	Slowakei
 slovakoj	Slovaken
 slovena	
-Slovenio	Slowenien
-slovenoj	
-so	
-So	
-SO	
-Sobota	
-sobre	
-Socia	
+Slovenio	Slowenien	
 socia	gesellschaftlich, Gesellschaftsvertrag, soziales Netzwerk, sozial
-sociaj	gesellschaftlich, Gesellschaftsvertrag, soziales Netzwerk, sozial
-sociajn	gesellschaftlich, Gesellschaftsvertrag, soziales Netzwerk, sozial
 Social	
 sociala	
 socialisma	
-Socialisma	
 socialismo	Sozialismus
 socialista	
 Socialista	
@@ -8065,12 +7660,7 @@ socio	Gesellschaft
 socioj	Gesellschaft
 sociologio	Gesellschaftslehre, Soziologie
 socion	Gesellschaft
-Sofia	
-Sofio	
-Sojuz	
 sola	allein, alleinig
-solaj	allein, alleinig
-solan	allein, alleinig
 soldataro	
 soldataroj	
 soldatojn	Soldat
@@ -8080,61 +7670,31 @@ sole
 solena	feierlich
 solida	
 solido	
-solidoj	
-Soloturno	
+solidoj		
 solvaĵo	
 solvi	auflösen, lösen
 solvo	Lösung
-solvon	Lösung
 Somalio	Somalia
 somera	
-Somera	
-someraj	
-somere	
-Somere	
 somero	Sommer
 Somogy	
 son	
 sonas	klingen, läuten
 Song	
 sonĝo	Traum
-sonojn	Ton
-sonoj	Ton
-sonon	Ton
+sono	Ton
 Sonora	
 sonorilostablo	
 sonorilo	Wecker
 sono	Ton
-Sophie	
 soprano	Sopran
-Sopronronda	
-Sorio	
+Sopronronda		
 sortable	
 sorto	Schicksal
-Source	
-South	
-Southern	
-sovaĝaj	wild
 sovaĝa	wild
 soveta	
-Soveta	
-sovetaj	
-sovetia	
-Sovetio	
-Space	
--spaco	
-spaco	
-spacoj	
-spacon	
-Sparrows	
-SPD	
-Speciala	
+spaco		
 speciala	besonders
-specialaj	besonders
-specialaj	besonders
-specialajn	besonders
-specialan	besonders
-speciale	besonders
 species	
 Species	
 specifa	
@@ -8148,9 +7708,6 @@ specioj	Spezies
 specioj	Spezies
 speciontemis	
 specio	Spezies
-Specjalna	
-specojn	Sorte, Spezies
-specoj	Sorte, Spezies
 speco	Sorte, Spezies
 spektaklo	
 spektantoj	
@@ -8170,27 +7727,15 @@ spite	trotz, ungeachtet, zum Trotz, zuwider
 sporta	
 sportaj	
 sportistoj	
-Sporto	
-sportoj	Sport
 sporto	Sport
 spurojn	Spur
 spuroj	Spur
 Sri-Lanko	Sri Lanka
-s-ro	
-S-ro	
-SS	
-SSR	
-st	
 stabila	stabil
 stacidomo	Bahnhofsgebäude
 stacio	Bahnhof, Haltestelle
-stacioj	Bahnhof, Haltestelle
 stadiono	
 Stadt	
-Stalin	
-Stanislav	
-Stanisław	
-Stanley	
 staranta	
 staras	stehen
 starigi	etw.  aufrichten, etw.  aufstellen, etw.  aufschlagen
@@ -8201,15 +7746,7 @@ staris	stehen
 starszą	
 start	
 state	
-State	
-statistika	
-statistike	
-statistiko	
 Statistiko	
-statistikoj	
-statistikoj	
-statoj	Zustand
-staton	Zustand
 stato	Zustand
 Statuo	
 statuoj	
@@ -8239,8 +7776,6 @@ Story
 stranga	komisch, merkwürdig, seltsam, sonderbar
 Strasburgo	Straßburg
 strategio	
-stratoj	Straße
-strato	Straße
 strato	Straße
 Strauss	
 Street	
@@ -8251,34 +7786,20 @@ strikte
 strio	
 strioj	
 strion	
-Strukturo	
-strukturoj	Struktur
-strukturon	Struktur
 strukturo	Struktur
 Stuart	
 studado	
 studadon	
 studas	studieren
-studentoj	Student
 studento	Student
 Studies	
 studio	Studio
-studis	studieren
 studi	studieren
 Studoj	
-studojn	Studium
-studoj	Studium
-studon	Studium
 studo	Studium
-Sturnedoj	
 sturno	
 Stutgarto	Stuttgart
-Stuttgart	
-su	
 suba	
-Suba	
-subaj	
-subajn	
 subaro	Teilmenge
 subdistrikto	
 suben	unten, unterhalb
@@ -8318,8 +7839,6 @@ Sudameriko	Südamerika
 Sudano	Sudan
 sudan	südlich
 suda	südlich
-suda	südlich
-Sude	
 suden	
 sude	sudlich
 Sud-Koreio	Südkorea
@@ -8328,7 +7847,6 @@ sudokcidentadoni
 sudokcidente	
 sudokcidento	
 sudorienta	
-Sudorienta	
 sudoriente	
 sudoriento	
 sudo	Süden
@@ -8336,27 +7854,22 @@ Sudtirolo	Südtirol
 suferas	leiden
 suferis	leiden
 sufiĉa	ausreichend
-sufiĉan	ausreichend
 sufiĉas	
 sufiĉe	genug, ziemlich
 sufikso	Nachsilbe, Suffix
 sugestas	
 sugestis	
 sukcesa	erfolgreich
-sukcesaj	erfolgreich
 sukcesas	
 sukcese	
 sukcesis	
 sukceso	Erfolg
-sukcesoj	Erfolg
-sukceson	Erfolg
 sukero	Zucker
 Sul	
 sultano	
 suma	
 Sumatro	
 sume	
-sumon	Summe
 sumo	Summe
 Sun	
 suna	sonnig
@@ -8366,8 +7879,6 @@ sunsistemo
 Super	
 supera	
 superaj	
-Supera	Oberer See
-superis	übertreffen
 superi	übertreffen
 superjaroj	
 superokula	
@@ -8383,45 +7894,21 @@ supro	Oberseite
 sur	an, auf
 surbaze	
 surfaca	
-surfacoj	Oberfläche
-surfacon	Oberfläche
 surfaco	Oberfläche
 surgrunde	
 Surinamo	Suriname
 surloke	
-Sursee	
 surtroniĝis	
 survoje	unterwegs
-Sus	
-sv	
 sveda	
-Sveda	
 svedaj	
-Svedaj	
 svede	
 Svedio	Schweden
 Svisaj	
-svisaj	schweizerisch
-svisa	schweizerisch
 svisa	schweizerisch
 Svisio	Schweiz
 Svislando	Schweiz
-Svisujo	Schweiz
-Svitavy	
-Sylvia	
-System	
-sz	
-Szabó	
-Szabolcs-Szatmár-Bereg	
-Szatmár	
-Szatmárnémeti	
-Szeged	
-Székely	
-Székelyudvarhely	
-Székesfehérvár	
-Szigligeti	
-Szilágy	
-Szilágyi	
+Svisujo	Schweiz	
 ŝablono	
 ŝablonoj	
 Ŝablonoj	
@@ -8432,16 +7919,10 @@ Szilágyi
 ŝafoj	Schaf
 Ŝajnas	
 ŝajnas	den Anschein haben, scheinen
-Ŝajne	
 ŝajne	scheinbar, anscheinend
 ŝajnis	den Anschein haben, scheinen
 ŝako	Schach
 ŝancon	
-ŝanĝas	verändern, wechseln, ändern
-ŝanĝiĝas	
-ŝanĝiĝis	
-ŝanĝiĝo	
-ŝanĝis	verändern, wechseln, ändern
 ŝanĝita	
 ŝanĝi	verändern, wechseln, ändern
 ŝanĝo	
@@ -8479,17 +7960,11 @@ Szilágyi
 ŝtataj	
 ŝtatan	
 ŝtatestro	
-Ŝtato	
-Ŝtatoj	
-ŝtatojn	Staat
-ŝtatoj	Staat
-ŝtaton	Staat
 ŝtato	Staat
 Ŝtatsekretario	
 ŝterno	
 ŝtona	
 ŝtonaj	
-ŝtonoj	Stein  der Weisen, Stein
 ŝtono	Stein  der Weisen, Stein
 ŝtupo	Stufe
 ŝuldas	schulden
@@ -8504,13 +7979,7 @@ tablo	Tisch
 tabulo	
 taĉmento	
 taĉmentoj	
-tage	
 taglibro	Tagebuch
-Tago	
-Tagoj	
-tagojn	Tag
-tagoj	Tag
-tagon	Tag
 tago	Tag
 Taĝikio	Tadschikistan
 Tajlando	Thailand
@@ -8532,22 +8001,10 @@ tankoj
 Tanzanio	Tansania
 Társaság	
 tasko	Arbeit, Aufgabe, Auftrag, Pensum, Prozess
-taskoj	Arbeit, Aufgabe, Auftrag, Pensum, Prozess
-taskojn	Arbeit, Aufgabe, Auftrag, Pensum, Prozess
-taskon	Arbeit, Aufgabe, Auftrag, Pensum, Prozess
 tataroj	
 taŭga	geeignet, passend, zweckmäßig
-taŭgaj	geeignet, passend, zweckmäßig
-taŭgan	geeignet, passend, zweckmäßig
 taŭgas	
-tavoloj	Schicht
 tavolo	Schicht
-Taylor	
-Tbiliso	
-td	
-te	
-tę	
-teamoj	Mannschaft
 teamo	Mannschaft
 teatra	
 teatraĵo	
@@ -8558,84 +8015,49 @@ teatro	Theater
 teatro	Theater
 tegmento	Dach
 tego	
-Tehrano	
-tej	
-teknika	
-teknika	
 teknikaj	
 teknikoj	Technik
 teknikon	Technik
 tekniko	Technik
 teknologio	
-Teknologio	
-Teksaso	
-Teksto	
-tekstojn	Text
-tekstoj	Text
-tekston	Text
 teksto	Text
-tel	
 telefona	
 Telefonkodo	
 telefonnumeroj	Telefonnummer
 telefono	Telefon
 telefonprefikso	
 televida	
-televidaj	
-televido	Fernsehen
-televido	Fernsehen
 televido	Fernsehen
 temas	
-Temas	
-Temesvár	
-Temeŝvaro	
 temo	Betreff, Thema
-temoj	Betreff, Thema
-temojn	Betreff, Thema
-temon	Betreff, Thema
 tempa	zeitlich
 temperaturoj	Temperatur
 temperaturo	Temperatur
 templanoj	
 templates	
 templo	
-Templo	
-temploj	
-Tempo	
-tempoj	Zeit
-tempon	Zeit
 tempo	Zeit
 tenas	festhalten, halten
 tendaro	Zeltlager
-tendencoj	Tendenz
 tendenco	Tendenz
 teni	festhalten, halten
-tenis	festhalten, halten
 tenoro	Tenor
 tensio	
 Teodoro	
 teologia	
-teologion	Theologie
 teologio	Theologie
 teologo	
 teologoj	
 teoremo	
 teoria	
 teorie	
-Teorio	
-teorioj	Theorie
-teorion	Theorie
 teorio	Theorie
 teo	Tee
 tera	
 terapio	
 tereno	Boden
-terenoj	Boden
-terenon	Boden
-Teresa	
 teritoria	
 teritorio	
-Teritorio	
 teritorioj	
 teritoriojn	
 teritorion	
@@ -8646,97 +8068,48 @@ terminologio
 terminon	Fachausdruck, Fachwort, Terminus
 termo	
 tero	Erde
-tero	Erde
 terojordonis	
-teron	Erde
 tertremo	Erdbeben
 terura	entsetzlich, furchtbar, grausam, schrecklich
 Testamento	
 testamento	Testament
-Texas	
-tezo	
-th	
-THE	
-Théâtre	
-their	
-Theodor	
-This	
-Thompson	
-ti	
-Tiaj	
-tiajn	solch  ]
 tiaj	solch  
 tial	daher, darum, deshalb, deswegen
 tiama	
 tiamaj	
 tiamaniere	
 tiam	dann
-tiam	dann
-tian	solch  ]
-tia	solch  ]
-tibeta	
-Tibeta	
-Tibeto	
+tian	solch
+tia	solch
 Tibor	
 tiea	
 tieaj	
 tie	da, dort, dort drüben
-tiele	
-Tiele	
 tiel	so, auf diese Weise
 tien	da, dort, dort drüben
-Tierra	
 ties	dessen
-tiling	
-Tim	
-timas	Angst haben, vor etw.  Angst haben, befürchten, dass, sich  fürchten
-Time	
-times	
-Times	
-timis	Angst haben, vor etw.  Angst haben, befürchten, dass, sich  fürchten
+timi	Angst haben, befürchten, sich fürchten
 Timişoara	
 timo	Angst, Furcht
 Timoro	
 tio	das
 tio	das
 tiom	so viele
-Tion	
 tion	das
-[tipa]]	
-tipaj	typisch
 tipa	typisch
 tipe	
 tipo	
 tipoj	
-tipojn	
-Tirolo	
-Tiso	
-Titanic	
-title	
+tipojn		
 Tito	
 titolita	
-Titolo	
-titolojn	Rang, Titel, Überschrift
-titoloj	Rang, Titel, Überschrift
-titolon	Rang, Titel, Überschrift
 titolo	Rang, Titel, Überschrift
 tiu-ĉi	
-tiu	dies
-tiuj	dies
-tiuj	dies
-tiujn	dies
-tiujn	dies
-tiun	dies
-tiutempa	
-tiutempe	
-Tiutempe	
+tiu	dies, dieser
 tombejo	Friedhof
 tombo	Grab
-tomboj	Grab
 tonalo	
 topologio	
-Torre	
-Torres	
 Toskanio	
 totala	
 tradicia	
@@ -8744,44 +8117,29 @@ tradiciaj
 tradiciajn	
 tradician	
 tradicie	
-Tradicie	
 tradicioj	
 tradicion	
 tradukado	
-tradukas	übersetzen
-Tradukis	
-tradukis	übersetzen
+traduki	übersetzen
 tradukita	
 tradukitaj	
 traduki	übersetzen
-Traduko	
-tradukojn	Übersetzung
-tradukoj	Übersetzung
-tradukon	Übersetzung
 traduko	Übersetzung
 tra	durch, über
-trafas	etw.  treffen, treffen
 trafiko	Verkehr
-trafis	etw.  treffen, treffen
+trafi	etw.  treffen, treffen
 trafluas	
 tragedio	
 traira	
-trairas	durchlaufen, durchqueren
-trairis	durchlaufen, durchqueren
+trairi	durchlaufen, durchqueren
 trajnlinio	
-trajnoj	Zug
 trajno	Zug
 trajto	
-trajtoj	
-trajtojn	
 trako	
 trakonstruiĝis	
 traktado	Behandlung
 traktas	behandeln
 traktato	Abhandlung
-traktato	Abhandlung
-traktatoj	Abhandlung
-traktaton	Abhandlung
 trakti	behandeln
 traktis	behandeln
 tramoj	Straßenbahn
@@ -8789,7 +8147,6 @@ tramo	Straßenbahn
 trankvila	ruhig
 Transdanubio	
 transdoni	abliefern
-transdonis	abliefern
 transdonita	
 transformiĝis	
 transformo	
@@ -8834,8 +8191,6 @@ tribunalo
 tridek	dreißig
 tridekjara	
 tri	drei
-tri	drei
-Trier-Saarburg	
 trifoje	
 tringo	
 Trinidado	Trinidad und Tobago
@@ -8859,17 +8214,13 @@ troveblaj
 troveblas	
 trovi	finden
 troviĝanta	
-troviĝas	sich  befinden
-troviĝas	sich  befinden
-troviĝi	sich  befinden
-troviĝis	sich  befinden
+troviĝi	sich befinden
 trovis	finden
 trovitaj	
 trovitapartopreni	
 trovos	finden
 true	
 trunko	Rumpf, Stamm
-truoj	Loch
 truo	Loch
 trupoj	
 trupojn	
@@ -8885,14 +8236,9 @@ Tunizio	Tunesien
 tunoj	
 tunojn	
 turdo	Drossel
-Turdus	
-Turgovio	Thurgau
-Turingio	
 turisma	
 turismaj	
-Turismaj	
 turismo	
-Turismo	
 turistoj	Tourist
 turka	
 turka	
@@ -8906,13 +8252,9 @@ turnado
 Turner	
 turniĝas	
 turniro	Turnier
-Turo	
-turoj	Turm
 turo	Turm
 tuŝas	anfassen, anrühren, berühren
 tuta	ganz, gesamt
-tutaj	ganz, gesamt
-tutan	ganz, gesamt
 tute	gänzlich, gar nicht, vollauf, vollständig, völlig
 tutlanda	
 tutmonda	
@@ -8935,31 +8277,13 @@ Uniforma
 uniformaj	
 Uniformaj	
 unika	
-unikan	
-unio	
-unio	
-Union	
 universala	allgemein
-universala	allgemein
-Universalaj	
-universitata	
-universitata	
-universitataj	
-Universitatoj	
-universitatoj	Universität
-universitaton	Universität
-universitato	Universität
 universitato	Universität
 universoklasikisma	
 UNO	
 unter	
 unua	erster
-unua	erster
 unuafoje	
-unuaj	erster
-unuaj	erster
-unuajn	erster
-unuan	erster
 unuavice	
 Unue	
 unueca	
@@ -8983,23 +8307,15 @@ unuopaj
 unuopajn	
 unusola	
 unu	zueinander, eins, eines Tages
-up	
-upload	
-uploaded	
 Uralo	
 Urano	
-Urba	
 urbajn	Stadtbahn, städtisch
 urbaj	Stadtbahn, städtisch
-Urbano	
-urbanoj	Bürger, Städter
+urbano	Bürger, Städter
 urban	Stadtbahn, städtisch
 urba	Stadtbahn, städtisch
-Urbestro	
 urbestro	Bürgermeister
-urbetoj	Kleinstadt, Städtchen
 urbeto	Kleinstadt, Städtchen
-urbeton	Kleinstadt, Städtchen
 Urbo	
 urbocentro	
 urbocentroj	
@@ -9027,20 +8343,13 @@ Usonaj
 usonaj	amerikanisch
 usonan	amerikanisch
 usonanoj	Amerikaner, US-Amerikaner
-Usonon	Vereinigte Staaten  von Amerika
-Usono	Vereinigte Staaten  von Amerika
-Uster	
-Ústí	
-usuń	
-Utaho	
-utilaj	nützlich
+Usonon	Vereinigte Staaten von Amerika
 utila	nützlich
 utilas	
 utiligas	
 utiligi	
 utiligis	
 utilis	
-Utrecht	
 Utunk	
 uzado	
 uzadon	
@@ -9077,18 +8386,11 @@ Valencio
 valezo	
 valida	gültig
 validas	gültig sein
-Valles	
-Valo	
-valoj	Tal
-valon	Tal	
+valo	Tal	
 valora	
 valoraj	
 valoras	
-valorojn	Wert
-valoroj	Wert
-valoron	Wert
 valoro	Wert
-valo	Tal
 valo	Tal
 value	
 valuta	Wechselkurs
@@ -9120,23 +8422,11 @@ vasta	ausgedehnt
 vastaj	ausgedehnt
 vastan	ausgedehnt
 vaste	
-Vaŝingtonio	
-Vaŝingtono	
-Vatikana	
 Vatikano	Vatikanstadt
-Vaŭdo	
-VCC	
-vd	
-ve	
-Ve	
-Vega	
 vegetaĵaro	Vegetation
 vektora	
 vektoroj	Vektor
 vektoro	Vektor
-Velázquez	
-Veľké	
-Veľký	
 venas	kommen
 Venceslao	
 vendas	verkaufen
@@ -9152,10 +8442,7 @@ Veneto
 Venezuela	
 Venezuelo	Venezuela
 veni	kommen
-venis	kommen
-venkas	siegen
 venki	siegen
-venkis	siegen
 venkita	
 venko	
 venkon	
@@ -9164,46 +8451,22 @@ venontaj
 venos	kommen
 vento	Wind
 ventro	Bauch
-Venuso	
-Vera	
-Veracruz	
 vera	echt, wahr, wirklich
-veraj	echt, wahr, wirklich
-veran	echt, wahr, wirklich
-veras	
 verboj	Verb
 verbo	Verb
 verda	grün
-Verdi	
-Verduloj	
 vere	ungelogen, wirklich, im Grunde genommen
 verkado	
 verkaĵoj	
 verkaro	
-verkas	abfassen, verfassen
 verki	abfassen, verfassen
 verkinto	
-verkis	abfassen, verfassen
-Verkistoj	
-verkistoj	Schriftsteller
 verkisto	Schriftsteller
 verkita	
 verkitaj	
-Verkoj	
-verkojn	Werk
-verkoj	Werk
-verkon	Werk
 verko	Werk
-Veronica	
-veron	Wahrheit
 vero	Wahrheit
-Versailles	
-versiojn	Version
-versioj	Version
-version	Version
-version	Version
 versio	Version
-versoj	Vers
 verso	Vers
 Verŝajne	
 verŝajne	wahrscheinlich
@@ -9212,7 +8475,6 @@ vertico
 verticoj	
 vertikala	
 vertikale	
-Ves	
 vespere	abends, am Abend
 vespero	Abend
 vestaĵoj	Kleidung
@@ -9223,20 +8485,11 @@ vetero	Wetter
 veturas	fahren
 veturi	fahren
 veturilo	Fahrzeug, Gefährt, Wagen
-veturiloj	Fahrzeug, Gefährt, Wagen
 veturis	fahren
 via	deine, dein
-viaj	deine, dein
-viajn	deine, dein
-vian	deine, dein
 viando	Fleisch
-Vicente	
-vicoj	Reihenfolge
-vicon	Reihenfolge
 vico	Reihenfolge
 vicprezidanto	
-Victor	
-Victoria	
 vida	
 vidas	sehen
 vidata	
@@ -9245,16 +8498,11 @@ videblaj	sichtbar
 videblas	
 videbla	sichtbar
 video	
-Video	
-Vidindaĵoj	
-vidindaĵoj	Sehenswürdigkeit
 vidindaĵo	Sehenswürdigkeit
 vidi	sehen
 vido	
 vido	
 vidpunkto	Gesinnung
-vidpunktoj	Gesinnung
-vidpunkton	Gesinnung
 vi	du, ihr, Sie
 vidu	seh
 vidu	sieh
@@ -9262,22 +8510,8 @@ vidvino	Witwe
 vie	
 viena	
 Viena	
-Vieno	Wien
-view	
-View	
+Vieno	Wien	
 vigla	lebhaft
-VII	
-vikio	
-vikipedia	
-Vikipedia	
-vikipediisto	
-Vikipediisto	
-vikipediistoj	
-Vikipediistoj	
-vikipedio	
-vikipedioj	
-Vikipedioj	Wikipedia
-Vikipedion	Wikipedia
 Vikipedio	Wikipedia
 viktimoj	Opfer
 viktimo	Opfer
@@ -9286,31 +8520,15 @@ Viktoria
 Viktorio	
 Viktoro	
 Vila	
-Világatlasz	
 vilaĝa	
 vilaĝanoj	
 vilaĝeto	
 vilaĝetoj	
-Vilaĝo	
 vilaĝo	Dorf
-vilaĝoj	Dorf
-vilaĝoj	Dorf
-vilaĝojn	Dorf
-vilaĝon	Dorf
 vilaĝservo	
 vilao	
-Vilhelmo	
-Villa	
-Villanueva	
-Vilmos	
-Vilno	
-Vincent	
-Vinci	
 vin	du, ihr, Sie
 vino	Wein
-Vinterturo	
-Vintra	
-vintraj	Winterzeit
 vintras	
 vintra	Winterzeit
 vintre	
@@ -9330,56 +8548,27 @@ Virginio
 virgo	
 Virgulino	
 virina	
-virinaj	
 virino	Frau
-Virinoj	
-virinoj	Frau
 virinojn	Frau
-Viroj	
-viroj	Mann
-virojn	Mann
-viro	Mann
 viro	Mann
 viruso	
 vitro	Glas
 viva	belebt, Lebewesen, lebend, lebendig, lebensvoll, lebhaft
 vivanta	
 vivantaj	
-vivas	leben
-vivienda	
 vivi	leben
-vivis	leben
-Vivo	
 vivo	Leben
-vivon	Leben
 vizaĝo	Angesicht, Antlitz, Gesicht
-Vizaĝoj	
-vizaĝon	Angesicht, Antlitz, Gesicht
 vizitantoj	Besucher
-vizitas	besuchen
 viziti	besuchen
-vizitis	besuchen
 vizito	Besuch
-Vjetnama	
 Vjetnamio	Vietnam
-Vladimir	
-Vladimír	
 voĉa	Sprachsteuerung
 voĉdoni	abstimmen
-voĉdonis	abstimmen
 voĉdono	Abstimmung
-voĉdonoj	Abstimmung
-voĉojn	Stimme
-voĉoj	Stimme
-voĉon	Stimme
-voĉo	Stimme
 voĉo	Stimme
 vojaĝantoj	
 vojaĝi	reisen
-vojaĝis	reisen
-Vojaĝo	
-vojaĝoj	Reise
-vojaĝon	Reise
 vojaĝo	Reise
 Vojo	
 vojojpensas	
@@ -9392,22 +8581,11 @@ vokis	rufen
 voktejo	
 Volapuko	Volapük
 volas	wollen
-volis	wollen
 volonte	
 volo	Wille
-Volume	
-volumeno	Fassungsvermögen, Rauminhalt, Volumen
-Volumo	
 volumo	Band, Buchband, Schriftrolle, Volumen
-volumoj	Band, Buchband, Schriftrolle, Volumen
-volus	wollen
-vortaroj	Wörterbuch, Wörterverzeichnis
-vortaron	Wörterbuch, Wörterverzeichnis
 vortaro	Wörterbuch, Wörterverzeichnis
 Vortoj	
-vortojn	Vokabel, Wort
-vortoj	Vokabel, Wort
-vorton	Vokabel, Wort
 vorto	Vokabel, Wort
 vortprovizo	
 vosto	
@@ -9428,14 +8606,11 @@ Zeit
 Zeŭso	Zeus
 Zimbabvo	Simbabwe
 zono	Gürtel, Zone
-zonoj	Gürtel, Zone
-zonon	Gürtel, Zone
 zoo	
 zorgas	sich  sorgen
 zorge	
 zorgiga	
 Zorgiga	
 zorgi	sich  sorgen
-zorgis	sich  sorgen
 zorgo	Sorge
 Zuriko	Zürich

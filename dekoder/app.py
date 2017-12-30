@@ -12,6 +12,7 @@ from jsonschema import validate, ValidationError
 
 from .schemas import format_schema
 from .models import *
+from .helpers import *
 
 app = Flask(__name__)   
 app.config.from_pyfile('config.py')
@@ -33,10 +34,9 @@ bundles = {
 }
 
 #Available languages
-langs=("DE","EN","ES","EO","RU","HE")
-langs2dict={"DEXX":WDictDEXX,"DEEN":WDictDEEN,"DEES":WDictDEES,"DEEO":WDictDEEO,"DERU":WDictDERU, "DEHE":WDictDEHE,
-            "XXDE":WDictXXDE,"ENDE":WDictENDE,"ESDE":WDictESDE,"EODE":WDictEODE,"RUDE":WDictRUDE, "HEDE":WDictHEDE}
-            
+langs=("DE","EN","ES","EO","FR","HE","JP","PL","RU")
+langs2dict={"DEEN":WDictDEEN,"DEES":WDictDEES,"DEEO":WDictDEEO,"DEFR":WDictDEFR,"DEHE":WDictDEHE,"DEJP":WDictDEJP,"DEPL":WDictDEPL,"DERU":WDictDERU,"DEXX":WDictDEXX,"ENDE":WDictENDE,"ENES":WDictENES,"ENEO":WDictENEO,"ENFR":WDictENFR,"ENHE":WDictENHE,"ENJP":WDictENJP,"ENPL":WDictENPL,"ENRU":WDictENRU,"ENXX":WDictENXX,"ESDE":WDictESDE,"ESEN":WDictESEN,"ESEO":WDictESEO,"ESFR":WDictESFR,"ESHE":WDictESHE,"ESJP":WDictESJP,"ESPL":WDictESPL,"ESRU":WDictESRU,"ESXX":WDictESXX,"EODE":WDictEODE,"EOEN":WDictEOEN,"EOES":WDictEOES,"EOFR":WDictEOFR,"EOHE":WDictEOHE,"EOJP":WDictEOJP,"EOPL":WDictEOPL,"EORU":WDictEORU,"EOXX":WDictEOXX,"FRDE":WDictFRDE,"FREN":WDictFREN,"FRES":WDictFRES,"FREO":WDictFREO,"FRHE":WDictFRHE,"FRJP":WDictFRJP,"FRPL":WDictFRPL,"FRRU":WDictFRRU,"FRXX":WDictFRXX,"HEDE":WDictHEDE,"HEEN":WDictHEEN,"HEES":WDictHEES,"HEEO":WDictHEEO,"HEFR":WDictHEFR,"HEJP":WDictHEJP,"HEPL":WDictHEPL,"HERU":WDictHERU,"HEXX":WDictHEXX,"JPDE":WDictJPDE,"JPEN":WDictJPEN,"JPES":WDictJPES,"JPEO":WDictJPEO,"JPFR":WDictJPFR,"JPHE":WDictJPHE,"JPPL":WDictJPPL,"JPRU":WDictJPRU,"JPXX":WDictJPXX,"PLDE":WDictPLDE,"PLEN":WDictPLEN,"PLES":WDictPLES,"PLEO":WDictPLEO,"PLFR":WDictPLFR,"PLHE":WDictPLHE,"PLJP":WDictPLJP,"PLRU":WDictPLRU,"PLXX":WDictPLXX,"RUDE":WDictRUDE,"RUEN":WDictRUEN,"RUES":WDictRUES,"RUEO":WDictRUEO,"RUFR":WDictRUFR,"RUHE":WDictRUHE,"RUJP":WDictRUJP,"RUPL":WDictRUPL,"RUXX":WDictRUXX,}
+          
 text_beginning_len = 30
 pp = pprint.PrettyPrinter(indent=4)
 assets = Environment(app)
@@ -77,10 +77,9 @@ def format():
             newW=0 #cnts the number of new words
             #counts up the references of the word or adds a new word to the lang specific dict
             for par in request.json["json"]:
-                if request.json["lang"]=="DE": TDict=WDictDEXX;
-                else :                         TDict=WDictXXDE;
+                TDict=dict2lang[request.json["lang"]+"XX"];
                 for w in par:
-                    pureWord=w.strip(" ,.\n").lower()
+                    pureWord=w.strip(striptTags).lower()
                     tr=db.session.query(TDict).filter(TDict.word==pureWord).one_or_none()
                     #print(w)
                     if tr==None: 
@@ -127,7 +126,6 @@ def dekodeText(textname):
 # post: * saves the dekoded text with all the translations entered
 @app.route('/dekode/<string:textname>/<string:lang>', methods=['GET', 'POST'])
 def dekodeTextLang(textname,lang):
-    
     # read original text from database for determinate source language
     txt = db.session.query(Text).filter(Text.name==textname).one()
     
@@ -136,8 +134,9 @@ def dekodeTextLang(textname,lang):
     dictLangKey = FROMlang+TOlang
     TDictDekoded=langs2dict[dictLangKey]
     
+    # get words from text and fetch the autocomplete translations
+    # for the items to be translated
     if request.method == 'GET':
-        # get words from text ( with autocomplete with translated items )
         autotext=[]
         for par in json.loads(txt.json):
             auto = {}
@@ -151,33 +150,30 @@ def dekodeTextLang(textname,lang):
         p = { "p":len(text["json"]), "pars": [len(par) for par in text["json"]] }
         return render_template("dekode.html", langs=langs, t=text, parWArr=str(p))
 
-    # if POST: save translated words
+    # if POST: save translated words, to the DICT tables
     if request.method == 'POST':
-        pp.pprint(request.json["json"])
         for par in request.json["json"]:
-            #print ("par: " + str(par))
             for orgWord in par:
-                #print ("orgWord: "+orgWord.encode('utf-8') )
                 if 'w' in par[orgWord]:
                     if par[orgWord]['w'] != None:
                         dekodedWord = par[orgWord]['w']
-                        #print (dekodedWord.encode('utf-8') )
                         # add to language table
                         tr=db.session.query(TDictDekoded).filter(TDictDekoded.word==orgWord).one_or_none()
                         if tr==None: 
-                            #print ("Word " + orgWord.encode('utf-8') + " is not found in Table " + dictLangKey )
-                            w = TDictDekoded(orgWord, json.dumps({"w":[dekodedWord]}))
+                            #as a new word 
+                            w = TDictDekoded(orgWord, json.dumps({"w":[dekodedWord],"refCnt":1}))
                             db.session.add(w)
                         else:
-                            pass
-                            #print ("Word " + orgWord.encode('utf-8') + " FOUND in Table " + dictLangKey )
+                            #or update the old entry
+                            ref=json.loads(tr.json)
+                            if "refCnt" in ref: ref["refCnt"]+=1;
+                            else:               ref["refCnt"]=1;
+                            if dekodedWord!="": ref["w"]     = list(set(ref["w"]+[dekodedWord]))
+                            tr.json=json.dumps(ref)
                         
                         # update languages list in text Table
-                        if FROMlang =="DE": 
-                            TDict=WDictDEXX
-                        else : 
-                            TDict=WDictXXDE
-                        tr=db.session.query(TDict).filter(TDict.word==orgWord.strip(" ,.\n").lower()).one_or_none()
+                        TDict=dict2lang[FROMlang+"XX"];
+                        tr=db.session.query(TDict).filter(TDict.word==orgWord.strip(striptTags).lower()).one_or_none()
                         if tr != None:
                             ref=json.loads(tr.json)
                             if not TOlang in ref["lang"]:
@@ -211,7 +207,7 @@ def read():
     for txt in dekoded_texts:
         #check if this text is translated TODO
         txt.json = Json2Text(txt)
-    return render_template("readText.html",  t=dekoded_texts, langs=langs)
+    return render_template("readText.html", t=dekoded_texts, langs=langs)
     
 #shows you all languages a text is dekoded to
 @app.route('/read/<string:textname>', methods=['GET'])
@@ -224,35 +220,22 @@ def readTextPDF():
     pass
 
 # shows you a dekoded text in one target language
+
+
 @app.route('/read/<string:textname>/<string:lang>', methods=['GET'])
 def readTextLang(textname,lang):
     # read original text from database 
-    org_text = db.session.query(Text).filter(Text.name==textname).one()
+    org_text = db.session.query(Text).filter(Text.name==textname).one_or_none()
     if org_text != None:
-        
-        dekoded_text = Text(textname, lang, "")
-        
-        FROMlang = org_text.lang
-        TOlang = lang
-        dictLangKey = FROMlang+TOlang
-        
-        TDictDekoded=langs2dict[dictLangKey]
-        
-        dekodedtext=""
-        for par in json.loads(org_text.json):
-            for t in par:
-                tr=db.session.query(TDictDekoded).filter(TDictDekoded.word==t).one_or_none()
-                if tr != None:
-                    ref=json.loads(tr.json)
-                    for v in ref["w"]:
-                        dekodedtext += v + " " 
-                    print (dekodedtext.encode('utf-8') )
-                
-            
-        dekoded_text = Text(textname, lang, dekodedtext)
-        org_text = Json2Text(org_text)
+        dekoded_text = db.session.query(Dekoded).filter(Dekoded.text_id==org_text.id,Dekoded.lang==lang).one_or_none()
+        if dekoded_text != None:
+            dekoded=json.loads(dekoded_text.json)
+            body=dekoded2body(dekoded)
+            foot=dekoded2footer(dekoded)
+            return render_template("readTextLang.html",  body=body, foot=foot)
+        else: return "NO DEKODED TEXT WITH ID: "+str(org_text.id)
+    else: return "NO ORIGINAL TEXT"
 
-    return render_template("readTextLang.html",  org_t=org_text, dekoded_t=dekodedtext)
 	
 
 app.secret_key = 'super secret key'
